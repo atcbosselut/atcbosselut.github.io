@@ -21,6 +21,9 @@ body {
     box-sizing: border-box;
 }
 
+.collapse.show {
+  visibility: visible;
+}
 
 
 * {
@@ -32,7 +35,11 @@ body {
 }
 
 .top-pic {
-    height: 400px;
+    height: 330px;
+}
+
+.container {
+    max-width: 640px;
 }
 
 #name {
@@ -45,14 +52,14 @@ body {
 }
 
 .text-header {
-    margin-top: 40px;
+    margin-top: 45px;
     margin-left: 20px;
     float: left;
 }
 
 .news-container {
-    width: 650px;
-    height: 100px;
+    width: 640px;
+    height: 125px;
     overflow-y: scroll;
     overflow-x:hidden;
     overflow: -moz-scrollbars-vertical;
@@ -65,18 +72,18 @@ body {
 
 .cust-header {
     position: absolute;
-    top: 300px;
-    left: 10%;
-    width: 90%;
+    top: 230px;
+    margin-left: 20px;
+    min-width: 500px;
 }
+
+
 
 .icons {
     text-align: center;
 }
 
 .bg1 {
-  background-image: url(KerryPark.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100% !important;
 }
@@ -104,9 +111,9 @@ body {
 
 
 .row {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    max-width: 960px;
 }
 
 .col-1 {
