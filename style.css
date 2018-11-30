@@ -113,7 +113,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1010px;
+    max-width: 1020px;
 }
 
 .col-1 {
