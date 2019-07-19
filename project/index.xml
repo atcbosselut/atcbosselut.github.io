@@ -45,7 +45,7 @@ narrative being presented. For machines to achieve this capability, they must be
       <pubDate>Thu, 18 Jul 2019 13:09:27 -0700</pubDate>
       
       <guid>https://atcbosselut.github.io/project/procedural/</guid>
-      <description>&lt;p&gt;Understanding long-form text such as instructions, stories, and dialogues, requires reasoning about implicit causal effects of events depicted in the text. For example, given an instruction such as ``\emph{bake} the muffins for an hour,&amp;rdquo; an intelligent agent must be able to anticipate a number of entailed facts (e.g., the muffins are now in the oven; their temperature will increase). While this common sense reasoning is trivial for humans, most natural language understanding algorithms cannot reason about causal effects not mentioned in surface strings of the text being read.&lt;/p&gt;
+      <description>&lt;p&gt;Understanding long-form text such as instructions, stories, and dialogues, requires reasoning about implicit causal effects of events depicted in the text. For example, given an instruction such as ``&lt;em&gt;bake&lt;/em&gt; the muffins for an hour,&amp;rdquo; an intelligent agent must be able to anticipate a number of entailed facts (e.g., the muffins are now in the oven; their temperature will increase). While this common sense reasoning is trivial for humans, most natural language understanding algorithms cannot reason about causal effects not mentioned in surface strings of the text being read.&lt;/p&gt;
 
 &lt;p&gt;We&amp;rsquo;ve developed approaches that aim to model aspects of world state changes, particularly those related to how entities change as they interact with the world. This world-centric modeling of procedural language (i.e., understanding by simulation) abstracts away from the
 surface strings, complementing text-centric modeling of language, which focuses on syntactic and
@@ -74,9 +74,9 @@ semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
 
 &lt;h3&gt; Relevant Publications &lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Asli Çelikyilmaz, Xiaodong He, Jianfeng Gao, Po-Sen Huang, Yejin Choi (2018).  Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Asli Çelikyilmaz, Xiaodong He, Jianfeng Gao, Po-Sen Huang, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/&#34; target=&#34;_blank&#34;&gt;Discourse-Aware Neural Rewards for Coherent Text Generation&lt;/a&gt; Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
 
-&lt;p&gt;Saadia Gabriel, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Ari Holtzman, Kyle Lo, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/&#34; target=&#34;_blank&#34;&gt;Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow&lt;/a&gt;. ArXiv.&lt;/p&gt;
+&lt;p&gt;Saadia Gabriel, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Ari Holtzman, Kyle Lo, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/&#34; target=&#34;_blank&#34;&gt;Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow&lt;/a&gt;. ArXiv: 1907.01272.&lt;/p&gt;
 
 &lt;p&gt;Ari Holtzman, Jan Buys, Maxwell Forbes, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, David Golub, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/holtzman-2018-learning-tw/&#34; target=&#34;_blank&#34;&gt;Learning to Write with Cooperative Discriminators&lt;/a&gt;. Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
 </description>
@@ -97,9 +97,9 @@ semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
 &lt;p&gt;&lt;h3&gt; Relevant Publications &lt;/h3&gt;
 Asli Çelikyilmaz, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Xiaodong He, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/&#34; target=&#34;_blank&#34;&gt;Deep Communicating Agents for Abstractive Summarization&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
 
-&lt;p&gt;Saadia Gabriel, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Ari Holtzman, Kyle Lo, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/&#34; target=&#34;_blank&#34;&gt;Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow&lt;/a&gt;. ArXiv.&lt;/p&gt;
+&lt;p&gt;Saadia Gabriel, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Ari Holtzman, Kyle Lo, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/&#34; target=&#34;_blank&#34;&gt;Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow&lt;/a&gt;. ArXiv: 1907.01272.&lt;/p&gt;
 
-&lt;p&gt;Andrew Hoang, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/&#34; target=&#34;_blank&#34;&gt;Efficient Adaptation of Pretrained Transformers for Abstractive Summarization&lt;/a&gt;. arXiv.&lt;/p&gt;
+&lt;p&gt;Andrew Hoang, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/&#34; target=&#34;_blank&#34;&gt;Efficient Adaptation of Pretrained Transformers for Abstractive Summarization&lt;/a&gt;. arXiv: 1906.00138.&lt;/p&gt;
 </description>
     </item>
     
