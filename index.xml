@@ -117,6 +117,22 @@ Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;
     </item>
     
     <item>
+      <title>Learning Prototypical Event Structure from Photo Albums</title>
+      <link>https://atcbosselut.github.io/project/protoevents/</link>
+      <pubDate>Mon, 15 Jul 2019 18:04:39 -0700</pubDate>
+      
+      <guid>https://atcbosselut.github.io/project/protoevents/</guid>
+      <description>&lt;p&gt;Activities and events in our lives are structural, be it a vacation, a camping trip, or a wedding. While individual details vary, there are characteristic patterns that are specific to each of these scenarios. For example, a wedding typically consists of a sequence of events such as &lt;em&gt;walking down the aisle&lt;/em&gt;, &lt;em&gt;exchanging vows&lt;/em&gt;, and &lt;em&gt;dancing&lt;/em&gt;. This work focuses on learning hierarchical and temporal event knowledge from a large collection of photo albums that depict common scenarios. Hierarchical knowledge identifies which events make up a scenario. In the previous example, &lt;em&gt;walking down the aisle&lt;/em&gt;, &lt;em&gt;exchanging vows&lt;/em&gt;, and &lt;em&gt;dancing&lt;/em&gt; are the events of a wedding.&lt;/p&gt;
+
+&lt;p&gt;Temporal knowledge captures whether there is an order to these events that is fundamental to the scenario. In a wedding, walking down the aisle generally must happen before the exchange of vows. The specific order of these events is crucial to understanding the scenario. Conversely, on a trip to Paris or New York City, there might be a less rigid temporal structure to events such as climbing the Eiffel Tower or visiting the Louvre. One can generally be done before the other without compromising the nature of the scenario.&lt;/p&gt;
+
+&lt;h3&gt; Relevant Publications &lt;/h3&gt;
+
+&lt;p&gt;Antoine Bosselut, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/&#34; target=&#34;_blank&#34;&gt;Learning Prototypical Event Structure from Photo Albums&lt;/a&gt;. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</title>
       <link>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</link>
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
