@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/</link>
+    <description>Recent content on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jul 2019 13:13:01 -0700</lastBuildDate>
+    
+	    <atom:link href="https://atcbosselut.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Commonsense Acquisition from Language</title>
+      <link>https://atcbosselut.github.io/project/commonsense/</link>
+      <pubDate>Thu, 18 Jul 2019 13:13:01 -0700</pubDate>
+      
+      <guid>https://atcbosselut.github.io/project/commonsense/</guid>
+      <description>&lt;p&gt;When reading text, humans make commonsense inferences that frame their understanding of the
+narrative being presented. For machines to achieve this capability, they must be able to acquire relevant and correct commonsense for an unbounded set of situations. We cast the problem of commonsense acquisition as knowledge base construction and investigate whether large-scale language models can effectively learn to generate the knowledge necessary to automatically construct a commonsense knowledge base.&lt;/p&gt;
+
+&lt;p&gt;While plenty of approaches exist for knowledge base construction and completion, commonsense displays interesting properties that make it difficult to apply typical solutions to it. First, commonsense knowledge does not cleanly fit into a schema comparing two entities with a known relation. A natural language phrase such as &amp;ldquo;going to the mall&amp;rdquo; has different commonsense properties than just &amp;ldquo;mall&amp;rdquo; requiring more expressive representations than atomic entities. Second, commonsense knowledge is often unmentioned in text, making it difficult to extract directly, as information extraction approaches would seek to do.&lt;/p&gt;
+
+&lt;p&gt;Large-scale language models provide an opportunity for a new approach, however. Over the course of reading billions of sentences of text, these models learn latent relationships between concepts in text. By fine-tuning these models on a small set of seed tuples to learn the desired relations and structure of a knowledge base, they can be adapted to produce a wide variety of commonsense knowledge tuples, some undiscoverable directly in text using extractive methods.&lt;/p&gt;
+
+&lt;h3&gt; Associated Publications &lt;/h3&gt;
+
+&lt;p&gt;Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2019-cometct/&#34; target=&#34;_blank&#34;&gt;COMET: Commonsense Transformers for Automatic Knowledge Graph Construction&lt;/a&gt;. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+
+&lt;p&gt;Antoine Bosselut, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/&#34; target=&#34;_blank&#34;&gt;Learning Prototypical Event Structure from Photo Albums&lt;/a&gt;. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+
+&lt;h3&gt; Resources &lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mosaickg.apps.allenai.org/&#34; target=&#34;_blank&#34;&gt;COMET Demo&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://homes.cs.washington.edu/~msap/atomic/&#34; target=&#34;_blank&#34;&gt;ATOMIC Knowledge Graph&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://conceptnet.io/&#34; target=&#34;_blank&#34;&gt;ConceptNet Knowledge Graph&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://ttic.uchicago.edu/~kgimpel/commonsense.html&#34; target=&#34;_blank&#34;&gt;ConceptNet subset used in our work&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Procedural Language Understanding with Commonsense Simulation</title>
+      <link>https://atcbosselut.github.io/project/procedural/</link>
+      <pubDate>Thu, 18 Jul 2019 13:09:27 -0700</pubDate>
+      
+      <guid>https://atcbosselut.github.io/project/procedural/</guid>
+      <description>&lt;p&gt;Understanding long-form text such as instructions, stories, and dialogues, requires reasoning about implicit causal effects of events depicted in the text. For example, given an instruction such as ``\emph{bake} the muffins for an hour,&amp;rdquo; an intelligent agent must be able to anticipate a number of entailed facts (e.g., the muffins are now in the oven; their temperature will increase). While this common sense reasoning is trivial for humans, most natural language understanding algorithms cannot reason about causal effects not mentioned in surface strings of the text being read.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ve developed approaches that aim to model aspects of world state changes, particularly those related to how entities change as they interact with the world. This world-centric modeling of procedural language (i.e., understanding by simulation) abstracts away from the
+surface strings, complementing text-centric modeling of language, which focuses on syntactic and
+semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Relevant Publications &lt;/h3&gt;
+&lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Omer Levy, Ari Holtzman, Corin Ennis, Dieter Fox, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2017-simulating-ad/&#34; target=&#34;_blank&#34;&gt;Simulating Action Dynamics with Neural Process Networks&lt;/a&gt;. Proceedings of the 6th International Conference for Learning Representations (ICLR).&lt;/p&gt;
+
+&lt;p&gt;Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
+
+&lt;p&gt;Hannah Rashkin, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Maarten Sap, Kevin Knight, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/&#34; target=&#34;_blank&#34;&gt;Modeling Naive Psychology of Characters in Simple Commonsense Stories&lt;/a&gt;. Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+
+&lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Peter Clark (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/&#34; target=&#34;_blank&#34;&gt;Reasoning about Actions and State Changes by Injecting Commonsense Knowledge&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Generation with Pragmatic Discriminator Networks</title>
+      <link>https://atcbosselut.github.io/project/generation/</link>
+      <pubDate>Thu, 18 Jul 2019 13:09:17 -0700</pubDate>
+      
+      <guid>https://atcbosselut.github.io/project/generation/</guid>
+      <description>&lt;p&gt;Modern neural language generation models often produce natural language that is generic and repetitive, and even self-contradictory and incoherent, particularly as the length of the sequence increases. This is in part due to the objective function optimized by language models, word-by-word negative loglikelihood, which is not expressive enough to capture global communicative goals. Therefore, common language sequences that can be unrelated to the generation goal are often produced at the expense of sequences that may be more complex (and therefore hard to generate), but that better convey the initial goal of communication.&lt;/p&gt;
+
+&lt;p&gt;My teammates and I have worked on integrating discriminator methods into generation pipelines. These discriminators provide additional scoring functions that can be used either at training or evaluation time to bias generators toward producing more coherent sequences.  Across wide varieties of text generation tasks: recipes (Bosselut et al., 2018), summarization (Gabriel et al., 2019), reviews (Holtzman et al., 2018), and story endings (Holtzman et al., 2018), our methods have produced higher quality summaries than comparable baselines that only use local maximum likelihood estimation as an objective.&lt;/p&gt;
+
+&lt;h3&gt; Relevant Publications &lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Asli Çelikyilmaz, Xiaodong He, Jianfeng Gao, Po-Sen Huang, Yejin Choi (2018).  Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
+
+&lt;p&gt;Saadia Gabriel, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Ari Holtzman, Kyle Lo, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/&#34; target=&#34;_blank&#34;&gt;Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow&lt;/a&gt;. ArXiv.&lt;/p&gt;
+
+&lt;p&gt;Ari Holtzman, Jan Buys, Maxwell Forbes, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, David Golub, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/holtzman-2018-learning-tw/&#34; target=&#34;_blank&#34;&gt;Learning to Write with Cooperative Discriminators&lt;/a&gt;. Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Document Summarization with Discourse Understanding</title>
+      <link>https://atcbosselut.github.io/project/summarization/</link>
+      <pubDate>Thu, 18 Jul 2019 13:06:46 -0700</pubDate>
+      
+      <guid>https://atcbosselut.github.io/project/summarization/</guid>
+      <description>&lt;!-- We design abstractive summarization algorithms that model the discourse characteristics of typical documents and summaries to improve abstractive summarization quality. --&gt;
+
+&lt;p&gt;In contrast to extractive summarization, where a summary is composed of a subset of sentences or words lifted from the input text as is, abstractive summarization requires the generative ability to rephrase and restructure sentences to compose a coherent and concise summary. Learning to produce good abstractive summaries is a difficult task that requires both learning how to extract meaningful content from documents, but also how to communicate it concisely.&lt;/p&gt;
+
+&lt;p&gt;Because documents and summaries are different ways of communicating information, however, they have varying levels of detail, indicating unique latent discourse properties for both pieces of text. We explore modeling architectures that learn to handle these latent discourse properties, thereby learning to select more salient information from the document and express it more clearly and concisely on the decoder side.&lt;/p&gt;
+
+&lt;p&gt;&lt;h3&gt; Relevant Publications &lt;/h3&gt;
+Asli Çelikyilmaz, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Xiaodong He, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/&#34; target=&#34;_blank&#34;&gt;Deep Communicating Agents for Abstractive Summarization&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
+
+&lt;p&gt;Saadia Gabriel, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Ari Holtzman, Kyle Lo, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/&#34; target=&#34;_blank&#34;&gt;Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow&lt;/a&gt;. ArXiv.&lt;/p&gt;
+
+&lt;p&gt;Andrew Hoang, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/&#34; target=&#34;_blank&#34;&gt;Efficient Adaptation of Pretrained Transformers for Abstractive Summarization&lt;/a&gt;. arXiv.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scientific Process Understanding</title>
+      <link>https://atcbosselut.github.io/project/science/</link>
+      <pubDate>Thu, 18 Jul 2019 09:48:30 -0700</pubDate>
+      
+      <guid>https://atcbosselut.github.io/project/science/</guid>
+      <description>&lt;p&gt;&lt;h3&gt;Relevant Publications&lt;/h3&gt;
+Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
+
+&lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Peter Clark (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/&#34; target=&#34;_blank&#34;&gt;Reasoning about Actions and State Changes by Injecting Commonsense Knowledge&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Adaptation of Pretrained Transformers for Abstractive Summarization</title>
+      <link>https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow</title>
+      <link>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Be Consistent! Improving Procedural Text Comprehension using Label Consistency</title>
+      <link>https://atcbosselut.github.io/publication/du-2019-be-ci/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/du-2019-be-ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating Action Dynamics with Neural Process Networks</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2017-simulating-ad/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2017-simulating-ad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discourse-Aware Neural Rewards for Coherent Text Generation</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Communicating Agents for Abstractive Summarization</title>
+      <link>https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Naive Psychology of Characters in Simple Commonsense Stories</title>
+      <link>https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Write with Cooperative Discriminators</title>
+      <link>https://atcbosselut.github.io/publication/holtzman-2018-learning-tw/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/holtzman-2018-learning-tw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reasoning about Actions and State Changes by Injecting Commonsense Knowledge</title>
+      <link>https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Prototypical Event Structure from Photo Albums</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atcbosselut.github.io/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/posts/</guid>
+      <description>&lt;p&gt;lallalal&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

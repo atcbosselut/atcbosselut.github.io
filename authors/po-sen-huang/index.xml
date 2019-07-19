@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Po-Sen Huang on Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/authors/po-sen-huang/</link>
+    <description>Recent content in Po-Sen Huang on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://atcbosselut.github.io/authors/po-sen-huang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discourse-Aware Neural Rewards for Coherent Text Generation</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

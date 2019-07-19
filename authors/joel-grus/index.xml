@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joel Grus on Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/authors/joel-grus/</link>
+    <description>Recent content in Joel Grus on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://atcbosselut.github.io/authors/joel-grus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reasoning about Actions and State Changes by Injecting Commonsense Knowledge</title>
+      <link>https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

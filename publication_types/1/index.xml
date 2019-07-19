@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://atcbosselut.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Be Consistent! Improving Procedural Text Comprehension using Label Consistency</title>
+      <link>https://atcbosselut.github.io/publication/du-2019-be-ci/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/du-2019-be-ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating Action Dynamics with Neural Process Networks</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2017-simulating-ad/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2017-simulating-ad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discourse-Aware Neural Rewards for Coherent Text Generation</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Communicating Agents for Abstractive Summarization</title>
+      <link>https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Naive Psychology of Characters in Simple Commonsense Stories</title>
+      <link>https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Write with Cooperative Discriminators</title>
+      <link>https://atcbosselut.github.io/publication/holtzman-2018-learning-tw/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/holtzman-2018-learning-tw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reasoning about Actions and State Changes by Injecting Commonsense Knowledge</title>
+      <link>https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Prototypical Event Structure from Photo Albums</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

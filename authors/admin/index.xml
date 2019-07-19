@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/authors/admin/</link>
+    <description>Recent content in admin on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="https://atcbosselut.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://atcbosselut.github.io/authors/antoine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/antoine/</guid>
+      <description>&lt;p&gt;I am a PhD student at the University of Washington working in the &lt;a href=&#34;https://www.cs.washington.edu/research/nlp&#34; target=&#34;_blank&#34;&gt;Natural  Language Processing Group&lt;/a&gt; and the &lt;a href=&#34;https://www.cs.washington.edu/research/ml&#34; target=&#34;_blank&#34;&gt;Machine Learning Group&lt;/a&gt;. I am  advised by Professor &lt;a href=&#34;https://homes.cs.washington.edu/~yejin&#34; target=&#34;_blank&#34;&gt;Yejin Choi&lt;/a&gt;. My research centers on using deep learning to discover commonsense knowledge and simulate commonsense reasoning.&lt;/p&gt;
+
+&lt;p&gt;I am also a researcher on the &lt;a target=&#34;_blank&#34; href=https://mosaic.allenai.org&gt;Mosaic Project&lt;/a&gt; at the &lt;a target=&#34;_blank&#34; href=https://allenai.org&gt;Allen Institute for Artificial Intelligence&lt;/a&gt; and collaborate extensively with &lt;a target=&#34;_blank&#34; href=https://www.microsoft.com/en-us/research/people/aslicel/&gt;Asli Celikyilmaz&lt;/a&gt; on the Deep Learning Team at MSR. Check out my &lt;b&gt;&lt;a target=&#34;_blank&#34; href=&#34;files/cv.pdf&#34;&gt;CV&lt;/a&gt;&lt;/b&gt; for more details.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m always happy to discuss projects with prospective researchers and have advised multiple students throughout my time at the University of Washington.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

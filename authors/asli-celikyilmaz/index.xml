@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asli Çelikyilmaz on Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/authors/asli-celikyilmaz/</link>
+    <description>Recent content in Asli Çelikyilmaz on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://atcbosselut.github.io/authors/asli-celikyilmaz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Adaptation of Pretrained Transformers for Abstractive Summarization</title>
+      <link>https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow</title>
+      <link>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discourse-Aware Neural Rewards for Coherent Text Generation</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</link>
+      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2018-discourse-aware-nr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Communicating Agents for Abstractive Summarization</title>
+      <link>https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

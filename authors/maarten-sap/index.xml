@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maarten Sap on Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/authors/maarten-sap/</link>
+    <description>Recent content in Maarten Sap on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://atcbosselut.github.io/authors/maarten-sap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Naive Psychology of Characters in Simple Commonsense Stories</title>
+      <link>https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
