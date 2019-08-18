@@ -32,12 +32,6 @@
   </url>
   
   <url>
-    <loc>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</loc>
-    <lastmod>2019-07-18T13:09:27-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://atcbosselut.github.io/project/procedural/</loc>
     <lastmod>2019-07-18T13:09:27-07:00</lastmod>
   </url>
@@ -174,6 +168,12 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/lianhui-qin/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</loc>
+    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
