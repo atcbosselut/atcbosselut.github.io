@@ -26,12 +26,34 @@ semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
 &lt;p&gt;&lt;h3&gt; Relevant Publications &lt;/h3&gt;
 &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Omer Levy, Ari Holtzman, Corin Ennis, Dieter Fox, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2017-simulating-ad/&#34; target=&#34;_blank&#34;&gt;Simulating Action Dynamics with Neural Process Networks&lt;/a&gt;. Proceedings of the 6th International Conference for Learning Representations (ICLR).&lt;/p&gt;
 
+&lt;p&gt;Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/&#34; target=&#34;_blank&#34;&gt;Everything Happens for a Reason: Discovering the Purpose of Actions in Procedural Text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+
+&lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Keisuke Sakaguchi, Peter Clark, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt; (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2019-wiqa/&#34; target=&#34;_blank&#34;&gt;WIQA: A dataset for &amp;ldquo;What if&amp;hellip;&amp;rdquo; reasoning over procedural text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+
 &lt;p&gt;Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
 
 &lt;p&gt;Hannah Rashkin, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Maarten Sap, Kevin Knight, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/&#34; target=&#34;_blank&#34;&gt;Modeling Naive Psychology of Characters in Simple Commonsense Stories&lt;/a&gt;. Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
 
 &lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Peter Clark (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/&#34; target=&#34;_blank&#34;&gt;Reasoning about Actions and State Changes by Injecting Commonsense Knowledge&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Everything Happens for a Reason: Discovering the Purpose of Actions in Procedural Text</title>
+      <link>https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WIQA: A dataset for &#34;What if...&#34; reasoning over procedural text</title>
+      <link>https://atcbosselut.github.io/publication/tandon-2019-wiqa/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/tandon-2019-wiqa/</guid>
+      <description></description>
     </item>
     
     <item>

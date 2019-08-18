@@ -26,9 +26,9 @@ narrative being presented. For machines to achieve this capability, they must be
 
 &lt;h3&gt; Associated Publications &lt;/h3&gt;
 
-&lt;p&gt;Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2019-cometct/&#34; target=&#34;_blank&#34;&gt;COMET: Commonsense Transformers for Automatic Knowledge Graph Construction&lt;/a&gt;. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2019-cometct/&#34; target=&#34;_blank&#34;&gt;COMET: Commonsense Transformers for Automatic Knowledge Graph Construction&lt;/a&gt;. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
 
-&lt;p&gt;Antoine Bosselut, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/&#34; target=&#34;_blank&#34;&gt;Learning Prototypical Event Structure from Photo Albums&lt;/a&gt;. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+&lt;!-- Antoine Bosselut, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). [Learning Prototypical Event Structure from Photo Albums](https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/). Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). --&gt;
 
 &lt;h3&gt; Resources &lt;/h3&gt;
 
@@ -53,6 +53,10 @@ semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
 
 &lt;p&gt;&lt;h3&gt; Relevant Publications &lt;/h3&gt;
 &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Omer Levy, Ari Holtzman, Corin Ennis, Dieter Fox, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2017-simulating-ad/&#34; target=&#34;_blank&#34;&gt;Simulating Action Dynamics with Neural Process Networks&lt;/a&gt;. Proceedings of the 6th International Conference for Learning Representations (ICLR).&lt;/p&gt;
+
+&lt;p&gt;Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/&#34; target=&#34;_blank&#34;&gt;Everything Happens for a Reason: Discovering the Purpose of Actions in Procedural Text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+
+&lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Keisuke Sakaguchi, Peter Clark, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt; (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2019-wiqa/&#34; target=&#34;_blank&#34;&gt;WIQA: A dataset for &amp;ldquo;What if&amp;hellip;&amp;rdquo; reasoning over procedural text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
 
 &lt;p&gt;Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
 
@@ -110,7 +114,11 @@ Asli Çelikyilmaz, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Xiaodong He, Y
       
       <guid>https://atcbosselut.github.io/project/science/</guid>
       <description>&lt;p&gt;&lt;h3&gt;Relevant Publications&lt;/h3&gt;
-Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
+Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/&#34; target=&#34;_blank&#34;&gt;Everything Happens for a Reason: Discovering the Purpose of Actions in Procedural Text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+
+&lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Keisuke Sakaguchi, Peter Clark, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt; (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2019-wiqa/&#34; target=&#34;_blank&#34;&gt;WIQA: A dataset for &amp;ldquo;What if&amp;hellip;&amp;rdquo; reasoning over procedural text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+
+&lt;p&gt;Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
 
 &lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Peter Clark (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/&#34; target=&#34;_blank&#34;&gt;Reasoning about Actions and State Changes by Injecting Commonsense Knowledge&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
 </description>
@@ -128,7 +136,7 @@ Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;
 
 &lt;h3&gt; Relevant Publications &lt;/h3&gt;
 
-&lt;p&gt;Antoine Bosselut, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/&#34; target=&#34;_blank&#34;&gt;Learning Prototypical Event Structure from Photo Albums&lt;/a&gt;. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/&#34; target=&#34;_blank&#34;&gt;Learning Prototypical Event Structure from Photo Albums&lt;/a&gt;. Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
 </description>
     </item>
     

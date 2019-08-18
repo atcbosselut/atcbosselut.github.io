@@ -6,10 +6,28 @@
     <description>Recent content in Peter Clark on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/authors/peter-clark/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Everything Happens for a Reason: Discovering the Purpose of Actions in Procedural Text</title>
+      <link>https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WIQA: A dataset for &#34;What if...&#34; reasoning over procedural text</title>
+      <link>https://atcbosselut.github.io/publication/tandon-2019-wiqa/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/tandon-2019-wiqa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Be Consistent! Improving Procedural Text Comprehension using Label Consistency</title>
