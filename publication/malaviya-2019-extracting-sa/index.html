@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="PhD Student / Researcher">
+  <meta name="description" content="Automatic KB completion for commonsense knowledge graphs (e.g., ATOMIC and ConceptNet) poses unique challenges compared to the much studied conventional knowledge bases (e.g., Freebase). Commonsense knowledge graphs use free-form text to represent nodes, resulting in orders of magnitude more nodes compared to conventional KBs (18x more nodes in ATOMIC compared to Freebase (FB15K-237)). Importantly, this implies significantly sparser graph structures - a major challenge for existing KB completion methods that assume densely connected graphs over a relatively smaller set of nodes. In this paper, we present novel KB completion models that can address these challenges by exploiting the structural and semantic context of nodes. Specifically, we investigate two key ideas: (1) learning from local graph structure, using graph convolutional networks and automatic graph densification and (2) transfer learning from pre-trained language models to knowledge graphs for enhanced contextual representation of knowledge. We describe our method to incorporate information from both these sources in a joint model and provide the first empirical results for KB completion on ATOMIC and evaluation with ranking metrics on ConceptNet. Our results demonstrate the effectiveness of language model representations in boosting link prediction performance and the advantages of learning from local graph structure (&#43;1.5 points in MRR for ConceptNet) when training on subgraphs for computational efficiency. Further analysis on model predictions shines light on the types of commonsense knowledge that language models capture well.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/authors/chaitanya-malaviya/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/">
 
   
 
@@ -105,15 +105,12 @@
   
 
   
-  <link rel="alternate" href="/authors/chaitanya-malaviya/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  <link rel="feed" href="/authors/chaitanya-malaviya/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/authors/chaitanya-malaviya/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/">
 
   
   
@@ -128,12 +125,14 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/authors/chaitanya-malaviya/">
-  <meta property="og:title" content="Chaitanya Malaviya | Antoine Bosselut">
-  <meta property="og:description" content="PhD Student / Researcher"><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/">
+  <meta property="og:title" content="Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion | Antoine Bosselut">
+  <meta property="og:description" content="Automatic KB completion for commonsense knowledge graphs (e.g., ATOMIC and ConceptNet) poses unique challenges compared to the much studied conventional knowledge bases (e.g., Freebase). Commonsense knowledge graphs use free-form text to represent nodes, resulting in orders of magnitude more nodes compared to conventional KBs (18x more nodes in ATOMIC compared to Freebase (FB15K-237)). Importantly, this implies significantly sparser graph structures - a major challenge for existing KB completion methods that assume densely connected graphs over a relatively smaller set of nodes. In this paper, we present novel KB completion models that can address these challenges by exploiting the structural and semantic context of nodes. Specifically, we investigate two key ideas: (1) learning from local graph structure, using graph convolutional networks and automatic graph densification and (2) transfer learning from pre-trained language models to knowledge graphs for enhanced contextual representation of knowledge. We describe our method to incorporate information from both these sources in a joint model and provide the first empirical results for KB completion on ATOMIC and evaluation with ranking metrics on ConceptNet. Our results demonstrate the effectiveness of language model representations in boosting link prediction performance and the advantages of learning from local graph structure (&#43;1.5 points in MRR for ConceptNet) when training on subgraphs for computational efficiency. Further analysis on model predictions shines light on the types of commonsense knowledge that language models capture well."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-01-31T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-07-18T16:44:39&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-18T00:00:00&#43;00:00">
   
 
   
@@ -145,7 +144,7 @@
 
 
 
-  <title>Chaitanya Malaviya | Antoine Bosselut</title>
+  <title>Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion | Antoine Bosselut</title>
 
 </head>
 
@@ -395,39 +394,285 @@
 </nav>
 
 
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Chaitanya Malaviya</h1>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-01-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-01-18 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/chaitanya-malaviya/">Chaitanya Malaviya</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/chandra-bhagavatula/">Chandra Bhagavatula</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/antoine-bosselut/"><strong>Antoine Bosselut</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/yejin-choi/">Yejin Choi</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2019</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Exploiting%20Structural%20and%20Semantic%20Context%20for%20Commonsense%20Knowledge%20Base%20Completion&amp;url=https%3a%2f%2fatcbosselut.github.io%2fpublication%2fmalaviya-2019-extracting-sa%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fatcbosselut.github.io%2fpublication%2fmalaviya-2019-extracting-sa%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fatcbosselut.github.io%2fpublication%2fmalaviya-2019-extracting-sa%2f&amp;title=Exploiting%20Structural%20and%20Semantic%20Context%20for%20Commonsense%20Knowledge%20Base%20Completion"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fatcbosselut.github.io%2fpublication%2fmalaviya-2019-extracting-sa%2f&amp;title=Exploiting%20Structural%20and%20Semantic%20Context%20for%20Commonsense%20Knowledge%20Base%20Completion"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Exploiting%20Structural%20and%20Semantic%20Context%20for%20Commonsense%20Knowledge%20Base%20Completion&amp;body=https%3a%2f%2fatcbosselut.github.io%2fpublication%2fmalaviya-2019-extracting-sa%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+
+</div>
+
     
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1910.02915" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/malaviya-2019-extracting-sa/malaviya-2019-extracting-sa.bib">
+  Cite
+</button>
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Automatic KB completion for commonsense knowledge graphs (e.g., ATOMIC and ConceptNet) poses unique challenges compared to the much studied conventional knowledge bases (e.g., Freebase). Commonsense knowledge graphs use free-form text to represent nodes, resulting in orders of magnitude more nodes compared to conventional KBs (18x more nodes in ATOMIC compared to Freebase (FB15K-237)). Importantly, this implies significantly sparser graph structures - a major challenge for existing KB completion methods that assume densely connected graphs over a relatively smaller set of nodes. In this paper, we present novel KB completion models that can address these challenges by exploiting the structural and semantic context of nodes. Specifically, we investigate two key ideas: (1) learning from local graph structure, using graph convolutional networks and automatic graph densification and (2) transfer learning from pre-trained language models to knowledge graphs for enhanced contextual representation of knowledge. We describe our method to incorporate information from both these sources in a joint model and provide the first empirical results for KB completion on ATOMIC and evaluation with ranking metrics on ConceptNet. Our results demonstrate the effectiveness of language model representations in boosting link prediction performance and the advantages of learning from local graph structure (+1.5 points in MRR for ConceptNet) when training on subgraphs for computational efficiency. Further analysis on model predictions shines light on the types of commonsense knowledge that language models capture well.</p>
     
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
+
     
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/bosselut-2019-cometct/">COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</a>
-        </li>
-        
-        <li>
-          <a href="/publication/malaviya-2019-extracting-sa/">Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion</a>
-        </li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>ArXiv</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/chaitanya-malaviya/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
         
       </ul>
     </div>
   </div>
-  
-</section>
+
+
+
+
+  </div>
+</div>
+
+
 
       
 

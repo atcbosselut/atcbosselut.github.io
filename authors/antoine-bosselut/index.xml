@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Antoine Bosselut</title>
+    <title>**Antoine Bosselut** on Antoine Bosselut</title>
     <link>https://atcbosselut.github.io/authors/antoine-bosselut/</link>
-    <description>Recent content on Antoine Bosselut</description>
+    <description>Recent content in **Antoine Bosselut** on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jul 2019 13:13:01 -0700</lastBuildDate>
@@ -76,20 +76,29 @@ semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
     </item>
     
     <item>
+      <title>Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow</title>
+      <link>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Efficient Adaptation of Pretrained Transformers for Abstractive Summarization</title>
       <link>https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow</title>
-      <link>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</link>
-      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      <title>Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion</title>
+      <link>https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</guid>
+      <guid>https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/</guid>
       <description></description>
     </item>
     
