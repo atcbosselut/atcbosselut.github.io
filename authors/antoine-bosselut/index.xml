@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>**Antoine Bosselut** on Antoine Bosselut</title>
+    <title>Antoine Bosselut</title>
     <link>https://atcbosselut.github.io/authors/antoine-bosselut/</link>
-    <description>Recent content in **Antoine Bosselut** on Antoine Bosselut</description>
+    <description>Recent content on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jul 2019 13:13:01 -0700</lastBuildDate>
@@ -27,6 +27,8 @@ narrative being presented. For machines to achieve this capability, they must be
 &lt;h3&gt; Associated Publications &lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Çelikyilmaz, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/bosselut-2019-cometct/&#34; target=&#34;_blank&#34;&gt;COMET: Commonsense Transformers for Automatic Knowledge Graph Construction&lt;/a&gt;. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
+
+&lt;p&gt;Chaitanya Malaviya, Chandra Bhagavatula, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Yejin Choi (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/&#34; target=&#34;_blank&#34;&gt;Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion&lt;/a&gt;. ArXiv: 1910.02915.&lt;/p&gt;
 
 &lt;!-- Antoine Bosselut, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). [Learning Prototypical Event Structure from Photo Albums](https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/). Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). --&gt;
 
@@ -56,9 +58,9 @@ semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
 
 &lt;p&gt;Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/dalvi-2019-everything-hf/&#34; target=&#34;_blank&#34;&gt;Everything Happens for a Reason: Discovering the Purpose of Actions in Procedural Text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
 
-&lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Keisuke Sakaguchi, Peter Clark, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt; (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2019-wiqa/&#34; target=&#34;_blank&#34;&gt;WIQA: A dataset for &amp;ldquo;What if&amp;hellip;&amp;rdquo; reasoning over procedural text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
+&lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Keisuke Sakaguchi, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Peter Clark (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2019-wiqa/&#34; target=&#34;_blank&#34;&gt;WIQA: A dataset for &amp;ldquo;What if&amp;hellip;&amp;rdquo; reasoning over procedural text&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
 
-&lt;p&gt;Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
+&lt;p&gt;Xinya Du, Bhavana Dalvi Mishra, Niket Tandon, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Wen-tau Yih, Peter Clark, Claire Cardie (2019). &lt;a href=&#34;https://atcbosselut.github.io/publication/du-2019-be-ci/&#34; target=&#34;_blank&#34;&gt;Be Consistent! Improving Procedural Text Comprehension using Label Consistency&lt;/a&gt;. Proceedings of the 17th Annual Meeting of the North American Association for Computational Linguistics (NAACL).&lt;/p&gt;
 
 &lt;p&gt;Hannah Rashkin, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Maarten Sap, Kevin Knight, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/&#34; target=&#34;_blank&#34;&gt;Modeling Naive Psychology of Characters in Simple Commonsense Stories&lt;/a&gt;. Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
 
