@@ -1,23 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://atcbosselut.github.io/publication_types/1/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/aida-amini/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atcbosselut.github.io/authors/antoine-bosselut/</loc>
-    <lastmod>2019-07-18T13:13:01-07:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/</loc>
-    <lastmod>2019-07-18T13:13:01-07:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/</loc>
-    <lastmod>2019-07-18T13:13:01-07:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/hannaneh-hajishirzi/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/publication/amini-2020-procedural-rc/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/publication_types/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/publication/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/yejin-choi/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/chaitanya-malaviya/</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/chandra-bhagavatula/</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/</loc>
+    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,7 +80,6 @@
   <url>
     <loc>https://atcbosselut.github.io/project/</loc>
     <lastmod>2019-07-18T13:13:01-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -59,7 +110,6 @@
   <url>
     <loc>https://atcbosselut.github.io/publication_types/3/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -68,49 +118,8 @@
   </url>
   
   <url>
-    <loc>https://atcbosselut.github.io/publication_types/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/publication/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/yejin-choi/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/publication_types/1/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/chaitanya-malaviya/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/chandra-bhagavatula/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://atcbosselut.github.io/authors/asli-celikyilmaz/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -121,19 +130,16 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/hannah-rashkin/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/maarten-sap/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/ari-holtzman/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -144,19 +150,16 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/kyle-lo/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/saadia-gabriel/</loc>
     <lastmod>2019-01-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/andrew-hoang/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -172,19 +175,11 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/elizabeth-clark/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/lianhui-qin/</loc>
     <lastmod>2019-01-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</loc>
-    <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -195,25 +190,21 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/niket-tandon/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/peter-clark/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/wen-tau-yih/</loc>
     <lastmod>2019-01-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/keisuke-sakaguchi/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -229,31 +220,26 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/claire-cardie/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/xinya-du/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/corin-ennis/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/dieter-fox/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/omer-levy/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -269,19 +255,16 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/jianfeng-gao/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/po-sen-huang/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/xiaodong-he/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -292,7 +275,6 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/kevin-knight/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -303,13 +285,11 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/david-golub/</loc>
     <lastmod>2018-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/jan-buys/</loc>
     <lastmod>2018-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -320,13 +300,11 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/maxwell-forbes/</loc>
     <lastmod>2018-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/joel-grus/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -337,19 +315,11 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/david-warren/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/hannaneh-hajishirzi/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/jianfu-chen/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -368,7 +338,6 @@
   
   <url>
     <loc>https://atcbosselut.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -381,12 +350,6 @@
   
   <url>
     <loc>https://atcbosselut.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/admin/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

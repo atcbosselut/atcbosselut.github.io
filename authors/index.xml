@@ -6,24 +6,51 @@
     <description>Recent content in Authors on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jul 2019 13:13:01 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>**Antoine Bosselut**</title>
+      <title>Aida Amini</title>
+      <link>https://atcbosselut.github.io/authors/aida-amini/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/aida-amini/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antoine Bosselut</title>
       <link>https://atcbosselut.github.io/authors/antoine-bosselut/</link>
-      <pubDate>Thu, 18 Jul 2019 13:13:01 -0700</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/antoine-bosselut/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Bhavana Dalvi Mishra</title>
+      <link>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hannaneh Hajishirzi</title>
+      <link>https://atcbosselut.github.io/authors/hannaneh-hajishirzi/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/hannaneh-hajishirzi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Yejin Choi</title>
       <link>https://atcbosselut.github.io/authors/yejin-choi/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/yejin-choi/</guid>
       <description></description>
@@ -32,7 +59,7 @@
     <item>
       <title>Chaitanya Malaviya</title>
       <link>https://atcbosselut.github.io/authors/chaitanya-malaviya/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/chaitanya-malaviya/</guid>
       <description></description>
@@ -41,7 +68,7 @@
     <item>
       <title>Chandra Bhagavatula</title>
       <link>https://atcbosselut.github.io/authors/chandra-bhagavatula/</link>
-      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/chandra-bhagavatula/</guid>
       <description></description>
@@ -125,15 +152,6 @@
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/lianhui-qin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bhavana Dalvi Mishra</title>
-      <link>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</link>
-      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/authors/bhavana-dalvi-mishra/</guid>
       <description></description>
     </item>
     
@@ -300,15 +318,6 @@
     </item>
     
     <item>
-      <title>Hannaneh Hajishirzi</title>
-      <link>https://atcbosselut.github.io/authors/hannaneh-hajishirzi/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/authors/hannaneh-hajishirzi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Jianfu Chen</title>
       <link>https://atcbosselut.github.io/authors/jianfu-chen/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
@@ -323,22 +332,14 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/antoine/</guid>
-      <description>&lt;p&gt;I am a PhD student at the University of Washington in the &lt;a href=&#34;https://www.cs.washington.edu/research/nlp&#34; target=&#34;_blank&#34;&gt;Natural  Language Processing Group&lt;/a&gt; advised by Professor &lt;a href=&#34;https://homes.cs.washington.edu/~yejin&#34; target=&#34;_blank&#34;&gt;Yejin Choi&lt;/a&gt;. My research centers on using deep learning to discover commonsense knowledge and simulate commonsense reasoning. I am also a researcher on the &lt;a href=&#34;https://mosaic.allenai.org&#34; target=&#34;_blank&#34;&gt;Mosaic Project&lt;/a&gt; at the &lt;a href=&#34;https://allenai.org&#34; target=&#34;_blank&#34;&gt;Allen Institute for Artificial Intelligence&lt;/a&gt;.
-&lt;!--  and collaborate extensively with [Asli Celikyilmaz](https://www.microsoft.com/en-us/research/people/aslicel/) on the Deep Learning Team at MSR --&gt;
-Check out my &lt;b&gt;&lt;a target=&#34;_blank&#34; href=&#34;files/cv.pdf&#34;&gt;CV&lt;/a&gt;&lt;/b&gt; for more details.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;I am on the academic and industry job markets.&lt;/b&gt;
- &lt;!-- I&#39;m always happy to discuss projects with prospective researchers and have advised multiple students throughout my time at the University of Washington. --&gt;&lt;/p&gt;
+      <description>&lt;p&gt;I am a postdoctoral researcher at Stanford University working with &lt;a href=&#34;https://cs.stanford.edu/people/jure/&#34;&gt;Jure Leskovec&lt;/a&gt;, &lt;a href=&#34;https://nlp.stanford.edu/manning/&#34;&gt;Chris Manning&lt;/a&gt;, and the &lt;a href=&#34;https://snap.stanford.edu/&#34;&gt;SNAP&lt;/a&gt; and &lt;a href=&#34;https://nlp.stanford.edu/&#34;&gt;NLP&lt;/a&gt; groups. I completed my PhD at the University of Washington advised by Professor &lt;a href=&#34;https://homes.cs.washington.edu/~yejin&#34;&gt;Yejin Choi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My research centers on developing natural language agents that can model, represent, and reason about knowledge.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>admin</title>
-      <link>https://atcbosselut.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/authors/admin/</guid>
-      <description></description>
     </item>
     
   </channel>

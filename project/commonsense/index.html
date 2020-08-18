@@ -41,7 +41,7 @@
   
   
   
-  <meta name="theme-color" content="#3f51b5">
+  <meta name="theme-color" content="#b1040e">
   
 
   
@@ -82,7 +82,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.207dffa411bad58bba7d8b5512871c99.css">
+  <link rel="stylesheet" href="/css/academic.min.337fde5c2680ab1055620da7c4fe2d23.css">
 
   
 
@@ -441,7 +441,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/antoine-bosselut/">Antoine Bosselut</a></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a>Antoine Bosselut</a></span>
 
   </div>
   
@@ -489,45 +489,6 @@
 
 
         
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Commonsense%20Acquisition%20from%20Language&amp;url=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f&amp;title=Commonsense%20Acquisition%20from%20Language"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f&amp;title=Commonsense%20Acquisition%20from%20Language"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Commonsense%20Acquisition%20from%20Language&amp;body=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
 
       </div>
     </div>
@@ -563,7 +524,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/antoine-bosselut/">Antoine Bosselut</a></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a>Antoine Bosselut</a></span>
 
   </div>
   
@@ -591,45 +552,6 @@
 
   
     
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Commonsense%20Acquisition%20from%20Language&amp;url=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f&amp;title=Commonsense%20Acquisition%20from%20Language"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f&amp;title=Commonsense%20Acquisition%20from%20Language"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Commonsense%20Acquisition%20from%20Language&amp;body=https%3a%2f%2fatcbosselut.github.io%2fproject%2fcommonsense%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
 
   
 
@@ -659,27 +581,18 @@
     <div class="article-style" itemprop="articleBody">
       <p>When reading text, humans make commonsense inferences that frame their understanding of the
 narrative being presented. For machines to achieve this capability, they must be able to acquire relevant and correct commonsense for an unbounded set of situations. We cast the problem of commonsense acquisition as knowledge base construction and investigate whether large-scale language models can effectively learn to generate the knowledge necessary to automatically construct a commonsense knowledge base.</p>
-
 <p>While plenty of approaches exist for knowledge base construction and completion, commonsense displays interesting properties that make it difficult to apply typical solutions to it. First, commonsense knowledge does not cleanly fit into a schema comparing two entities with a known relation. A natural language phrase such as &ldquo;going to the mall&rdquo; has different commonsense properties than just &ldquo;mall&rdquo; requiring more expressive representations than atomic entities. Second, commonsense knowledge is often unmentioned in text, making it difficult to extract directly, as information extraction approaches would seek to do.</p>
-
 <p>Large-scale language models provide an opportunity for a new approach, however. Over the course of reading billions of sentences of text, these models learn latent relationships between concepts in text. By fine-tuning these models on a small set of seed tuples to learn the desired relations and structure of a knowledge base, they can be adapted to produce a wide variety of commonsense knowledge tuples, some undiscoverable directly in text using extractive methods.</p>
-
-<h3> Associated Publications </h3>
-
-<p><strong>Antoine Bosselut</strong>, Yejin Choi (2019). <a href="https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/" target="_blank">Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</a>. ArXiv: 1911. &hellip;</p>
-
-<p><strong>Antoine Bosselut</strong>, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Çelikyilmaz, Yejin Choi (2019). <a href="https://atcbosselut.github.io/publication/bosselut-2019-cometct/" target="_blank">COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</a>. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).</p>
-
-<p>Chaitanya Malaviya, Chandra Bhagavatula, <strong>Antoine Bosselut</strong>, Yejin Choi (2020). <a href="https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/" target="_blank">Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion</a>. Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI).</p>
-
-<!-- Antoine Bosselut, Jianfu Chen, David Warren, Hannaneh Hajishirzi, Yejin Choi (2016). [Learning Prototypical Event Structure from Photo Albums](https://atcbosselut.github.io/publication/bosselut-2016-learning-pe/). Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL). -->
-
-<h3> Resources </h3>
-
-<p><a href="https://mosaickg.apps.allenai.org/" target="_blank">COMET Demo</a><br>
-<a href="https://homes.cs.washington.edu/~msap/atomic/" target="_blank">ATOMIC Knowledge Graph</a><br>
-<a href="http://conceptnet.io/" target="_blank">ConceptNet Knowledge Graph</a><br>
-<a href="https://ttic.uchicago.edu/~kgimpel/commonsense.html" target="_blank">ConceptNet subset used in our work</a><br></p>
+<h3 id="associated-publications">Associated Publications</h3>
+<p><strong>Antoine Bosselut</strong>, Yejin Choi (2019). <a href="https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/">Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</a>. ArXiv: 1911.03876</p>
+<p><strong>Antoine Bosselut</strong>, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Çelikyilmaz, Yejin Choi (2019). <a href="https://atcbosselut.github.io/publication/bosselut-2019-cometct/">COMET: Commonsense Transformers for Automatic Knowledge Graph Construction</a>. Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL).</p>
+<p>Chaitanya Malaviya, Chandra Bhagavatula, <strong>Antoine Bosselut</strong>, Yejin Choi (2020). <a href="https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/">Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion</a>. Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI).</p>
+<!-- raw HTML omitted -->
+<h3 id="resources">Resources</h3>
+<p><a href="https://mosaickg.apps.allenai.org/">COMET Demo</a><br>
+<a href="https://homes.cs.washington.edu/~msap/atomic/">ATOMIC Knowledge Graph</a><br>
+<a href="http://conceptnet.io/">ConceptNet Knowledge Graph</a><br>
+<a href="https://ttic.uchicago.edu/~kgimpel/commonsense.html">ConceptNet subset used in our work</a></p>
 
     </div>
 
@@ -843,7 +756,7 @@ narrative being presented. For machines to achieve this capability, they must be
     
     
     
-    <script src="/js/academic.min.174c04eddb854712a9c7aaae9021446f.js"></script>
+    <script src="/js/academic.min.e5372221df876d5d52eda40edaa58012.js"></script>
 
     
 
