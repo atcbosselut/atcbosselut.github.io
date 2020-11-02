@@ -6,10 +6,19 @@
     <description>Recent content in Jena D. Hwang on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/authors/jena-d.-hwang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>(Comet-)Atomic 2020: On Symbolic and Neural Commonsense Knowledge Graphs</title>
+      <link>https://atcbosselut.github.io/publication/hwang-2020-comet-a2020/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/hwang-2020-comet-a2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning</title>
