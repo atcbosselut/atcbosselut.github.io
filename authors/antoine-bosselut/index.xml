@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Dynamic Neuro-Symbolic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning</title>
       <link>https://atcbosselut.github.io/publication/qin-2020-delorean/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
@@ -89,15 +98,6 @@ semantic labeling of surface words (i.e., understanding by labeling).&lt;/p&gt;
 &lt;p&gt;Hannah Rashkin, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Maarten Sap, Kevin Knight, Yejin Choi (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/rashkin-2018-modeling-np/&#34;&gt;Modeling Naive Psychology of Characters in Simple Commonsense Stories&lt;/a&gt;. Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL).&lt;/p&gt;
 &lt;p&gt;Niket Tandon, Bhavana Dalvi Mishra, Joel Grus, Wen-tau Yih, &lt;strong&gt;Antoine Bosselut&lt;/strong&gt;, Peter Clark (2018). &lt;a href=&#34;https://atcbosselut.github.io/publication/tandon-2018-reasoning-aa/&#34;&gt;Reasoning about Actions and State Changes by Injecting Commonsense Knowledge&lt;/a&gt;. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP).&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Dynamic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</title>
-      <link>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</guid>
-      <description></description>
     </item>
     
     <item>
