@@ -6,7 +6,7 @@
     <description>Recent content in 3 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Dynamic Neuro-Symbolic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</title>
       <link>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edited Media Understanding: Reasoning About Implications of Manipulated Images</title>
+      <link>https://atcbosselut.github.io/publication/da-2020-emu/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/da-2020-emu/</guid>
       <description></description>
     </item>
     

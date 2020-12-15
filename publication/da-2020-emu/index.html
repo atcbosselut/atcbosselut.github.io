@@ -28,10 +28,11 @@
   
     
   
-  <meta name="description" content="Postdoctoral Researcher">
+  <meta name="description" content="Multimodal disinformation, from &#39;deepfakes&#39; to simple edits that deceive, is an important societal problem. Yet at the same time, the vast majority of media edits are harmless -- such as a filtered vacation photo. The difference between this example, and harmful edits that spread disinformation, is one of intent. Recognizing and describing this intent is a major challenge for today&#39;s AI systems. &lt;br&gt;&lt;br&gt;
+We present the task of Edited Media Understanding, requiring models to answer open-ended questions that capture the intent and implications of an image edit. We introduce a dataset for our task, EMU, with 48k question-answer pairs written in rich natural language. We evaluate a wide variety of vision-and-language models for our task, and introduce a new model PELICAN, which builds upon recent progress in pretrained multimodal representations. Our model obtains promising results on our dataset, with humans rating its answers as accurate 40.35% of the time. At the same time, there is still much work to be done -- humans prefer human-annotated captions 93.56% of the time -- and we provide analysis that highlights areas for further progress.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/authors/ronan-le-bras/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/da-2020-emu/">
 
   
 
@@ -105,15 +106,12 @@
   
 
   
-  <link rel="alternate" href="/authors/ronan-le-bras/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  <link rel="feed" href="/authors/ronan-le-bras/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/authors/ronan-le-bras/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/da-2020-emu/">
 
   
   
@@ -128,12 +126,15 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/authors/ronan-le-bras/">
-  <meta property="og:title" content="Ronan Le Bras | Antoine Bosselut">
-  <meta property="og:description" content="Postdoctoral Researcher"><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/da-2020-emu/">
+  <meta property="og:title" content="Edited Media Understanding: Reasoning About Implications of Manipulated Images | Antoine Bosselut">
+  <meta property="og:description" content="Multimodal disinformation, from &#39;deepfakes&#39; to simple edits that deceive, is an important societal problem. Yet at the same time, the vast majority of media edits are harmless -- such as a filtered vacation photo. The difference between this example, and harmful edits that spread disinformation, is one of intent. Recognizing and describing this intent is a major challenge for today&#39;s AI systems. &lt;br&gt;&lt;br&gt;
+We present the task of Edited Media Understanding, requiring models to answer open-ended questions that capture the intent and implications of an image edit. We introduce a dataset for our task, EMU, with 48k question-answer pairs written in rich natural language. We evaluate a wide variety of vision-and-language models for our task, and introduce a new model PELICAN, which builds upon recent progress in pretrained multimodal representations. Our model obtains promising results on our dataset, with humans rating its answers as accurate 40.35% of the time. At the same time, there is still much work to be done -- humans prefer human-annotated captions 93.56% of the time -- and we provide analysis that highlights areas for further progress."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2021-01-02T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-07-18T16:44:39&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-11-01T00:00:00&#43;00:00">
   
 
   
@@ -145,7 +146,7 @@
 
 
 
-  <title>Ronan Le Bras | Antoine Bosselut</title>
+  <title>Edited Media Understanding: Reasoning About Implications of Manipulated Images | Antoine Bosselut</title>
 
 </head>
 
@@ -395,43 +396,242 @@
 </nav>
 
 
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Ronan Le Bras</h1>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Edited Media Understanding: Reasoning About Implications of Manipulated Images</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2020-11-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-11-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a>Jeff Da</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Maxwell Forbes</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Rowan Zellers</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Anthony Zheng</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Jena D. Hwang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a><strong>Antoine Bosselut</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Yejin Choi</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2020.04726" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/da-2020-emu/da-2020-emu.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Multimodal disinformation, from &lsquo;deepfakes&rsquo; to simple edits that deceive, is an important societal problem. Yet at the same time, the vast majority of media edits are harmless &ndash; such as a filtered vacation photo. The difference between this example, and harmful edits that spread disinformation, is one of intent. Recognizing and describing this intent is a major challenge for today&rsquo;s AI systems. <!-- raw HTML omitted --><!-- raw HTML omitted -->
+We present the task of Edited Media Understanding, requiring models to answer open-ended questions that capture the intent and implications of an image edit. We introduce a dataset for our task, EMU, with 48k question-answer pairs written in rich natural language. We evaluate a wide variety of vision-and-language models for our task, and introduce a new model PELICAN, which builds upon recent progress in pretrained multimodal representations. Our model obtains promising results on our dataset, with humans rating its answers as accurate 40.35% of the time. At the same time, there is still much work to be done &ndash; humans prefer human-annotated captions 93.56% of the time &ndash; and we provide analysis that highlights areas for further progress.</p>
     
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
+
     
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/hwang-2020-comet-a2020/">(Comet-)Atomic 2020: On Symbolic and Neural Commonsense Knowledge Graphs</a>
-        </li>
-        
-        <li>
-          <a href="/publication/bosselut-2019-dynamic-kg/">Dynamic Neuro-Symbolic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</a>
-        </li>
-        
-        <li>
-          <a href="/publication/qin-2020-delorean/">Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning</a>
-        </li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>ArXiv</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/jeff-da/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
         
       </ul>
     </div>
   </div>
-  
-</section>
+
+
+
+
+  </div>
+</div>
+
+
 
       
 
