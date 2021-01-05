@@ -28,10 +28,11 @@
   
     
   
-  <meta name="description" content="Abstractive summarization requires understanding the latent discourse properties of how information is presented. We develop new approaches for integrating these inductive biases into summarization architectures.">
+  <meta name="description" content="Providing natural language processing systems with commonsense knowledge is a critical challenge for achieving language understanding. Recently, commonsense knowledge models have emerged as a suitable approach for hypothesizing situation-relevant commonsense knowledge on-demand in natural language applications. However, these systems are limited by the fixed set of relations captured by schemas of the knowledge bases on which they&#39;re trained.&lt;br&gt;&lt;br&gt;
+To address this limitation, we investigate training commonsense knowledge models in a few-shot setting with limited tuples per commonsense relation in the graph. We perform five separate studies on different dimensions of few-shot commonsense knowledge learning, providing a roadmap on best practices for training these systems efficiently. Importantly, we find that human quality ratings for knowledge produced from a few-shot trained system can achieve performance within 6% of knowledge produced from fully supervised systems. This few-shot performance enables coverage of a wide breadth of relations in future commonsense systems. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/project/summarization/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
 
   
 
@@ -110,40 +111,42 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/project/summarization/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
 
   
   
   
   
     
+    
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="twitter:site" content="@ABosselut">
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/project/summarization/">
-  <meta property="og:title" content="Document Summarization with Discourse Understanding | Antoine Bosselut">
-  <meta property="og:description" content="Abstractive summarization requires understanding the latent discourse properties of how information is presented. We develop new approaches for integrating these inductive biases into summarization architectures."><meta property="og:image" content="https://atcbosselut.github.io/project/summarization/featured.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
+  <meta property="og:title" content="Understanding Few-Shot Commonsense Knowledge Models | Antoine Bosselut">
+  <meta property="og:description" content="Providing natural language processing systems with commonsense knowledge is a critical challenge for achieving language understanding. Recently, commonsense knowledge models have emerged as a suitable approach for hypothesizing situation-relevant commonsense knowledge on-demand in natural language applications. However, these systems are limited by the fixed set of relations captured by schemas of the knowledge bases on which they&#39;re trained.&lt;br&gt;&lt;br&gt;
+To address this limitation, we investigate training commonsense knowledge models in a few-shot setting with limited tuples per commonsense relation in the graph. We perform five separate studies on different dimensions of few-shot commonsense knowledge learning, providing a roadmap on best practices for training these systems efficiently. Importantly, we find that human quality ratings for knowledge produced from a few-shot trained system can achieve performance within 6% of knowledge produced from fully supervised systems. This few-shot performance enables coverage of a wide breadth of relations in future commonsense systems. "><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-07-18T13:06:46-07:00">
+  <meta property="article:published_time" content="2020-07-18T16:44:39&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-07-18T13:06:46-07:00">
+  <meta property="article:modified_time" content="2021-11-10T00:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Document Summarization with Discourse Understanding | Antoine Bosselut</title>
+
+
+  <title>Understanding Few-Shot Commonsense Knowledge Models | Antoine Bosselut</title>
 
 </head>
 
@@ -393,7 +396,7 @@
 </nav>
 
 
-  <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -408,101 +411,38 @@
 
 
 
-
-<div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/project/summarization/featured_hudcb17a71b55206ebb6185cb3ab8deb34_2388166_800x0_resize_lanczos_2.png');"></div>
   
-</div>
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Understanding Few-Shot Commonsense Knowledge Models</h1>
+
+  
+
+  
+    
 
 
-<div class="container-fluid split-header d-none d-xl-block">
-  <div class="row">
-    <div class="col-6">
-      <div class="split-header-content">
-        <h1 itemprop="name">Document Summarization with Discourse Understanding</h1>
 
-        
-
-        
-
-
-
-<meta content="2019-07-18 13:06:46 -0700 -0700" itemprop="datePublished">
-<meta content="2019-07-18 13:06:46 -0700 -0700" itemprop="dateModified">
+<meta content="2021-11-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-11-10 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
   
   
-
   
-  <span class="article-date">
+  
+  <div>
     
-    
-      
-    
-    <time>Jul 18, 2019</time>
-  </span>
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-
-</div>
-
-
-        
 
 
 
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a>Jeff Da</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Ronan Le Bras</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Ximing Lu</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Yejin Choi</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a><strong>Antoine Bosselut</strong></a></span>
 
-
-
-
-
-
-
-
-
-
-
-
-        
-
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="split-header-image">
-        <img src="/project/summarization/featured_hudcb17a71b55206ebb6185cb3ab8deb34_2388166_680x500_fill_q90_lanczos_smart1_2.png" itemprop="image" alt="">
-        
-      </div>
-    </div>
   </div>
-</div>
-
-<div class="article-container d-xl-none">
-  <h1 itemprop="name">Document Summarization with Discourse Understanding</h1>
-
-  
-
-  
-
-
-
-<meta content="2019-07-18 13:06:46 -0700 -0700" itemprop="datePublished">
-<meta content="2019-07-18 13:06:46 -0700 -0700" itemprop="dateModified">
-
-<div class="article-metadata">
-
   
   
 
@@ -512,7 +452,7 @@
     
       
     
-    <time>Jul 18, 2019</time>
+    <time>2021</time>
   </span>
   
 
@@ -533,6 +473,24 @@
 
 </div>
 
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -542,28 +500,91 @@
 
 
 
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2101.00297" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/da-2021-understanding-fs/da-2021-understanding-fs.bib">
+  Cite
+</button>
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
 </div>
 
 
 
   <div class="article-container">
 
-    <div class="article-style" itemprop="articleBody">
-      <!-- raw HTML omitted -->
-<p>In contrast to extractive summarization, where a summary is composed of a subset of sentences or words lifted from the input text as is, abstractive summarization requires the generative ability to rephrase and restructure sentences to compose a coherent and concise summary. Learning to produce good abstractive summaries is a difficult task that requires both learning how to extract meaningful content from documents, but also how to communicate it concisely.</p>
-<p>Because documents and summaries are different ways of communicating information, however, they have varying levels of detail, indicating unique latent discourse properties for both pieces of text. We explore modeling architectures that learn to handle these latent discourse properties, thereby learning to select more salient information from the document and express it more clearly and concisely on the decoder side.</p>
-<h3 id="associated-publications">Associated Publications</h3>
-<p>Asli Çelikyilmaz, <strong>Antoine Bosselut</strong>, Xiaodong He, Yejin Choi (2018). <a href="https://atcbosselut.github.io/publication/celikyilmaz-2018-deep-ca/">Deep Communicating Agents for Abstractive Summarization</a>. Proceedings of the 16th Annual Meeting of the North American Association for Computational Linguistics (NAACL).</p>
-<p>Saadia Gabriel, <strong>Antoine Bosselut</strong>, Ari Holtzman, Kyle Lo, Asli Çelikyilmaz, Yejin Choi (2019). <a href="https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/">Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow</a>. ArXiv: 1907.01272.</p>
-<p>Andrew Hoang, <strong>Antoine Bosselut</strong>, Asli Çelikyilmaz, Yejin Choi (2019). <a href="https://atcbosselut.github.io/publication/hoang-2019-efficient-ao/">Efficient Adaptation of Pretrained Transformers for Abstractive Summarization</a>. arXiv: 1906.00138.</p>
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Providing natural language processing systems with commonsense knowledge is a critical challenge for achieving language understanding. Recently, commonsense knowledge models have emerged as a suitable approach for hypothesizing situation-relevant commonsense knowledge on-demand in natural language applications. However, these systems are limited by the fixed set of relations captured by schemas of the knowledge bases on which they&rsquo;re trained.<!-- raw HTML omitted --><!-- raw HTML omitted -->
+To address this limitation, we investigate training commonsense knowledge models in a few-shot setting with limited tuples per commonsense relation in the graph. We perform five separate studies on different dimensions of few-shot commonsense knowledge learning, providing a roadmap on best practices for training these systems efficiently. Importantly, we find that human quality ratings for knowledge produced from a few-shot trained system can achieve performance within 6% of knowledge produced from fully supervised systems. This few-shot performance enables coverage of a wide breadth of relations in future commonsense systems.</p>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>ArXiv</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
@@ -578,94 +599,27 @@
 
 
   
-
-
-
-
-
-  
-  
   
     
+  
+  
+
+
+
+
+
+  
+  
   
   
   <div class="media author-card" itemscope itemtype="http://schema.org/Person">
     
-      
-      <img class="portrait mr-3" src="/authors/antoine/avatar_hu535661bce2c742bf7a0f6a055ac0b6d1_4014847_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
-    
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://atcbosselut.github.io/">Antoine Bosselut</a></h5>
-      <h6 class="card-subtitle">Postdoctoral Researcher</h6>
-      <p class="card-text" itemprop="description">My research centers on using deep learning to discover commonsense knowledge and simulate commonsense reasoning.</p>
+      <h5 class="card-title" itemprop="name"><a href="/authors/jeff-da/"></a></h5>
+      
+      
       <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/ABosselut" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=tK9K1D4AAAAJ&amp;hl=en" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/atcbosselut" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
         
       </ul>
     </div>
@@ -674,23 +628,8 @@
 
 
 
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
   </div>
-</article>
+</div>
 
 
 
