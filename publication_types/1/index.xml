@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Dynamic Neuro-Symbolic Knowledge Graph Construction for Zero-shot Commonsense Question Answering</title>
+      <link>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bosselut-2019-dynamic-kg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Back to the Future: Unsupervised Backprop-based Decoding for Counterfactual and Abductive Commonsense Reasoning</title>
       <link>https://atcbosselut.github.io/publication/qin-2020-delorean/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
@@ -39,7 +48,7 @@
     </item>
     
     <item>
-      <title>Exploiting Structural and Semantic Context for Commonsense Knowledge Base Completion</title>
+      <title>Commonsense Knowledge Base Completion with Structural and Semantic Context</title>
       <link>https://atcbosselut.github.io/publication/malaviya-2019-extracting-sa/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
