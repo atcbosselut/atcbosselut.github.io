@@ -6,10 +6,19 @@
     <description>Recent content in Chandra Bhagavatula on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/authors/chandra-bhagavatula/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I&#39;m Not Mad: Commonsense Implications of Negation and Contradiction</title>
+      <link>https://atcbosselut.github.io/publication/jiang-2021-negation/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/jiang-2021-negation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>On-the-Fly Attention Modularization for Neural Generation</title>

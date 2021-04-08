@@ -6,17 +6,26 @@
     <description>Recent content in Publications on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Understanding Few-Shot Commonsense Knowledge Models</title>
-      <link>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <title>QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering</title>
+      <link>https://atcbosselut.github.io/publication/yasunaga-2021-qagnn/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</guid>
+      <guid>https://atcbosselut.github.io/publication/yasunaga-2021-qagnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I&#39;m Not Mad: Commonsense Implications of Negation and Contradiction</title>
+      <link>https://atcbosselut.github.io/publication/jiang-2021-negation/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/jiang-2021-negation/</guid>
       <description></description>
     </item>
     
@@ -62,6 +71,15 @@
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/qin-2020-delorean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding Few-Shot Commonsense Knowledge Models</title>
+      <link>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</link>
+      <pubDate>Sat, 18 Jul 2020 16:44:39 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</guid>
       <description></description>
     </item>
     

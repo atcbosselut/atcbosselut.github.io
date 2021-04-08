@@ -3,62 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://atcbosselut.github.io/publication_types/3/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <loc>https://atcbosselut.github.io/publication_types/1/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/antoine-bosselut/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atcbosselut.github.io/authors/jeff-da/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <loc>https://atcbosselut.github.io/authors/hongyu-ren/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/jure-leskovec/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/michihiro-yasunaga/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/percy-liang/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/publication_types/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/publication/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atcbosselut.github.io/authors/ronan-le-bras/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/ximing-lu/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atcbosselut.github.io/authors/yejin-choi/</loc>
-    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+    <loc>https://atcbosselut.github.io/publication/yasunaga-2021-qagnn/</loc>
+    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/chandra-bhagavatula/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/publication/jiang-2021-negation/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/liwei-jiang/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/yejin-choi/</loc>
+    <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/publication_types/3/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,6 +98,11 @@
   </url>
   
   <url>
+    <loc>https://atcbosselut.github.io/authors/ximing-lu/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atcbosselut.github.io/authors/yue-dong/</loc>
     <lastmod>2021-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -88,12 +113,17 @@
   </url>
   
   <url>
-    <loc>https://atcbosselut.github.io/publication_types/1/</loc>
+    <loc>https://atcbosselut.github.io/authors/jeff-da/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://atcbosselut.github.io/authors/keisuke-sakaguchi/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/authors/ronan-le-bras/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -140,6 +170,11 @@
   <url>
     <loc>https://atcbosselut.github.io/authors/vered-shwartz/</loc>
     <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</loc>
+    <lastmod>2020-07-18T16:44:39+00:00</lastmod>
   </url>
   
   <url>

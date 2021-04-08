@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,54 +14,72 @@
     <item>
       <title>Antoine Bosselut</title>
       <link>https://atcbosselut.github.io/authors/antoine-bosselut/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/antoine-bosselut/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jeff Da</title>
-      <link>https://atcbosselut.github.io/authors/jeff-da/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Hongyu Ren</title>
+      <link>https://atcbosselut.github.io/authors/hongyu-ren/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/authors/jeff-da/</guid>
+      <guid>https://atcbosselut.github.io/authors/hongyu-ren/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ronan Le Bras</title>
-      <link>https://atcbosselut.github.io/authors/ronan-le-bras/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Jure Leskovec</title>
+      <link>https://atcbosselut.github.io/authors/jure-leskovec/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/authors/ronan-le-bras/</guid>
+      <guid>https://atcbosselut.github.io/authors/jure-leskovec/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ximing Lu</title>
-      <link>https://atcbosselut.github.io/authors/ximing-lu/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Michihiro Yasunaga</title>
+      <link>https://atcbosselut.github.io/authors/michihiro-yasunaga/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/authors/ximing-lu/</guid>
+      <guid>https://atcbosselut.github.io/authors/michihiro-yasunaga/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Yejin Choi</title>
-      <link>https://atcbosselut.github.io/authors/yejin-choi/</link>
-      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Percy Liang</title>
+      <link>https://atcbosselut.github.io/authors/percy-liang/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/authors/yejin-choi/</guid>
+      <guid>https://atcbosselut.github.io/authors/percy-liang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chandra Bhagavatula</title>
       <link>https://atcbosselut.github.io/authors/chandra-bhagavatula/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/chandra-bhagavatula/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liwei Jiang</title>
+      <link>https://atcbosselut.github.io/authors/liwei-jiang/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/liwei-jiang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yejin Choi</title>
+      <link>https://atcbosselut.github.io/authors/yejin-choi/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/yejin-choi/</guid>
       <description></description>
     </item>
     
@@ -84,6 +102,15 @@
     </item>
     
     <item>
+      <title>Ximing Lu</title>
+      <link>https://atcbosselut.github.io/authors/ximing-lu/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/ximing-lu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Yue Dong</title>
       <link>https://atcbosselut.github.io/authors/yue-dong/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
@@ -93,11 +120,29 @@
     </item>
     
     <item>
+      <title>Jeff Da</title>
+      <link>https://atcbosselut.github.io/authors/jeff-da/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/jeff-da/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Keisuke Sakaguchi</title>
       <link>https://atcbosselut.github.io/authors/keisuke-sakaguchi/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/authors/keisuke-sakaguchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ronan Le Bras</title>
+      <link>https://atcbosselut.github.io/authors/ronan-le-bras/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/authors/ronan-le-bras/</guid>
       <description></description>
     </item>
     
