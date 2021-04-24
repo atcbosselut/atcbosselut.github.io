@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Discourse Understanding and Factual Consistency in Abstractive Summarization</title>
+      <link>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</link>
+      <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Understanding Few-Shot Commonsense Knowledge Models</title>
       <link>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
@@ -98,15 +107,6 @@
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/bosselut-2019-cometct/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow</title>
-      <link>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</link>
-      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/</guid>
       <description></description>
     </item>
     

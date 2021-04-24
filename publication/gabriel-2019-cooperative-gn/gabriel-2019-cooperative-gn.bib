@@ -1,8 +1,19 @@
-@article{Gabriel2019CooperativeGN,
- author = {Saadia Gabriel and Antoine Bosselut and Ari Holtzman and Kyle Lo and Asli Çelikyilmaz and Yejin Choi},
- journal = {ArXiv},
- title = {Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow},
- volume = {abs/1907.01272},
- year = {2019}
+@inproceedings{gabriel-etal-2021-discourse,
+    title = "Discourse Understanding and Factual Consistency in Abstractive Summarization",
+    author = "Gabriel, Saadia  and
+      Bosselut, Antoine  and
+      Da, Jeff  and
+      Holtzman, Ari  and
+      Buys, Jan  and
+      Lo, Kyle  and
+      Celikyilmaz, Asli  and
+      Choi, Yejin",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.eacl-main.34",
+    pages = "435--447",
+    abstract = "We introduce a general framework for abstractive summarization with factual consistency and distinct modeling of the narrative flow in an output summary. Our work addresses current limitations of models for abstractive summarization that often hallucinate information or generate summaries with coherence issues. To generate abstractive summaries with factual consistency and narrative flow, we propose Cooperative Generator-Discriminator Networks (Co-opNet), a novel transformer-based framework where the generator works with a discriminator architecture to compose coherent long-form summaries. We explore four different discriminator objectives which each capture a different aspect of coherence, including whether salient spans of generated abstracts are hallucinated or appear in the input context, and the likelihood of sentence adjacency in generated abstracts. We measure the ability of Co-opNet to learn these objectives with arXiv scientific papers, using the abstracts as a proxy for gold long-form scientific article summaries. Empirical results from automatic and human evaluations demonstrate that Co-opNet learns to summarize with considerably improved global coherence compared to competitive baselines.",
 }
-

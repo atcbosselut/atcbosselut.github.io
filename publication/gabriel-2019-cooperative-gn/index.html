@@ -28,7 +28,8 @@
   
     
   
-  <meta name="description" content="We introduce Cooperative Generator-Discriminator Networks (Co-opNet), a general framework for abstractive summarization with distinct modeling of the narrative flow in the output summary. Most current approaches to abstractive summarization, in contrast, are based on datasets whose target summaries are either a single sentence, or a bag of standalone sentences (e.g., extracted highlights of a story), neither of which allows for learning coherent narrative flow in the output summaries. To promote research toward abstractive summarization with narrative flow, we first introduce a new dataset, Scientific Abstract SummarieS (SASS), where the abstracts are used as proxy gold summaries for scientific articles. We then propose Co-opNet, a novel transformer-based framework where the generator works with the discourse discriminator to compose a long-form summary. Empirical results demonstrate that Co-opNet learns to summarize with considerably improved global coherence compared to competitive baselines.">
+  <meta name="description" content="We introduce a general framework for abstractive summarization with factual consistency and distinct modeling of the narrative flow in an output summary. Our work addresses current limitations of models for abstractive summarization that often hallucinate information or generate summaries with coherence issues.&lt;br&gt;&lt;br&gt;
+To generate abstractive summaries with factual consistency and narrative flow, we propose Cooperative Generator -- Discriminator Networks (Co-opNet), a novel transformer-based framework where a generator works with a discriminator architecture to compose coherent long-form summaries. We explore four different discriminator objectives which each capture a different aspect of coherence, including whether salient spans of generated abstracts are hallucinated or appear in the input context, and the likelihood of sentence adjacency in generated abstracts. We measure the ability of Co-opNet to learn these objectives with arXiv scientific papers, using the abstracts as a proxy for gold long-form scientific article summaries. Empirical results from automatic and human evaluations demonstrate that Co-opNet learns to summarize with considerably improved global coherence compared to competitive baselines.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/">
@@ -126,13 +127,14 @@
   
   <meta property="og:site_name" content="Antoine Bosselut">
   <meta property="og:url" content="https://atcbosselut.github.io/publication/gabriel-2019-cooperative-gn/">
-  <meta property="og:title" content="Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow | Antoine Bosselut">
-  <meta property="og:description" content="We introduce Cooperative Generator-Discriminator Networks (Co-opNet), a general framework for abstractive summarization with distinct modeling of the narrative flow in the output summary. Most current approaches to abstractive summarization, in contrast, are based on datasets whose target summaries are either a single sentence, or a bag of standalone sentences (e.g., extracted highlights of a story), neither of which allows for learning coherent narrative flow in the output summaries. To promote research toward abstractive summarization with narrative flow, we first introduce a new dataset, Scientific Abstract SummarieS (SASS), where the abstracts are used as proxy gold summaries for scientific articles. We then propose Co-opNet, a novel transformer-based framework where the generator works with the discourse discriminator to compose a long-form summary. Empirical results demonstrate that Co-opNet learns to summarize with considerably improved global coherence compared to competitive baselines."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:title" content="Discourse Understanding and Factual Consistency in Abstractive Summarization | Antoine Bosselut">
+  <meta property="og:description" content="We introduce a general framework for abstractive summarization with factual consistency and distinct modeling of the narrative flow in an output summary. Our work addresses current limitations of models for abstractive summarization that often hallucinate information or generate summaries with coherence issues.&lt;br&gt;&lt;br&gt;
+To generate abstractive summaries with factual consistency and narrative flow, we propose Cooperative Generator -- Discriminator Networks (Co-opNet), a novel transformer-based framework where a generator works with a discriminator architecture to compose coherent long-form summaries. We explore four different discriminator objectives which each capture a different aspect of coherence, including whether salient spans of generated abstracts are hallucinated or appear in the input context, and the likelihood of sentence adjacency in generated abstracts. We measure the ability of Co-opNet to learn these objectives with arXiv scientific papers, using the abstracts as a proxy for gold long-form scientific article summaries. Empirical results from automatic and human evaluations demonstrate that Co-opNet learns to summarize with considerably improved global coherence compared to competitive baselines."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-07-18T16:44:39&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-01-20T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2021-09-30T00:00:00&#43;00:00">
   
 
   
@@ -144,7 +146,7 @@
 
 
 
-  <title>Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow | Antoine Bosselut</title>
+  <title>Discourse Understanding and Factual Consistency in Abstractive Summarization | Antoine Bosselut</title>
 
 </head>
 
@@ -415,7 +417,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Cooperative Generator-Discriminator Networks for Abstractive Summarization with Narrative Flow</h1>
+  <h1 itemprop="name">Discourse Understanding and Factual Consistency in Abstractive Summarization</h1>
 
   
 
@@ -424,8 +426,8 @@
 
 
 
-<meta content="2019-01-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-01-20 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2021-09-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-09-30 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -438,7 +440,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a>Saadia Gabriel</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a><strong>Antoine Bosselut</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Ari Holtzman</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Kyle Lo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Asli Çelikyilmaz</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Yejin Choi</a></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a>Saadia Gabriel</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a><strong>Antoine Bosselut</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Jeff Da</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Ari Holtzman</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Jan Buys</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Kyle Lo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Asli Çelikyilmaz</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a>Yejin Choi</a></span>
 
   </div>
   
@@ -450,7 +452,7 @@
     
       
     
-    <time>2019</time>
+    <time>2021</time>
   </span>
   
 
@@ -504,7 +506,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/1907.01272" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/1907.01272" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -541,7 +543,8 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">We introduce Cooperative Generator-Discriminator Networks (Co-opNet), a general framework for abstractive summarization with distinct modeling of the narrative flow in the output summary. Most current approaches to abstractive summarization, in contrast, are based on datasets whose target summaries are either a single sentence, or a bag of standalone sentences (e.g., extracted highlights of a story), neither of which allows for learning coherent narrative flow in the output summaries. To promote research toward abstractive summarization with narrative flow, we first introduce a new dataset, Scientific Abstract SummarieS (SASS), where the abstracts are used as proxy gold summaries for scientific articles. We then propose Co-opNet, a novel transformer-based framework where the generator works with the discourse discriminator to compose a long-form summary. Empirical results demonstrate that Co-opNet learns to summarize with considerably improved global coherence compared to competitive baselines.</p>
+    <p class="pub-abstract" itemprop="text">We introduce a general framework for abstractive summarization with factual consistency and distinct modeling of the narrative flow in an output summary. Our work addresses current limitations of models for abstractive summarization that often hallucinate information or generate summaries with coherence issues.<!-- raw HTML omitted --><!-- raw HTML omitted -->
+To generate abstractive summaries with factual consistency and narrative flow, we propose Cooperative Generator &ndash; Discriminator Networks (Co-opNet), a novel transformer-based framework where a generator works with a discriminator architecture to compose coherent long-form summaries. We explore four different discriminator objectives which each capture a different aspect of coherence, including whether salient spans of generated abstracts are hallucinated or appear in the input context, and the likelihood of sentence adjacency in generated abstracts. We measure the ability of Co-opNet to learn these objectives with arXiv scientific papers, using the abstracts as a proxy for gold long-form scientific article summaries. Empirical results from automatic and human evaluations demonstrate that Co-opNet learns to summarize with considerably improved global coherence compared to competitive baselines.</p>
     
 
     
@@ -571,7 +574,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>ArXiv</em></div>
+          <div class="col-12 col-md-9"><em>Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
