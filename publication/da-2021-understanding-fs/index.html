@@ -28,8 +28,8 @@
   
     
   
-  <meta name="description" content="Providing natural language processing systems with commonsense knowledge is a critical challenge for achieving language understanding. Recently, commonsense knowledge models have emerged as a suitable approach for hypothesizing situation-relevant commonsense knowledge on-demand in natural language applications. However, these systems are limited by the fixed set of relations captured by schemas of the knowledge bases on which they&#39;re trained.&lt;br&gt;&lt;br&gt;
-To address this limitation, we investigate training commonsense knowledge models in a few-shot setting with limited tuples per commonsense relation in the graph. We perform five separate studies on different dimensions of few-shot commonsense knowledge learning, providing a roadmap on best practices for training these systems efficiently. Importantly, we find that human quality ratings for knowledge produced from a few-shot trained system can achieve performance within 6% of knowledge produced from fully supervised systems. This few-shot performance enables coverage of a wide breadth of relations in future commonsense systems. ">
+  <meta name="description" content="Recently, commonsense knowledge models --- pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples --- showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models. However, as parallel studies show that LMs are poor hypothesizers of declarative commonsense relationships on their own, it remains unclear whether this knowledge is learned during pretraining or from fine-tuning on KG examples.&lt;br&gt;&lt;br&gt;
+To investigate this question, we train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities. Our results show that commonsense knowledge models can rapidly adapt from limited examples, indicating that KG fine-tuning serves to learn an interface to encoded knowledge learned during pretraining. Importantly, our analysis of absolute, angular, and distributional parameter changes during few-shot fine-tuning provides novel insights into how this interface is learned.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
@@ -127,14 +127,14 @@ To address this limitation, we investigate training commonsense knowledge models
   
   <meta property="og:site_name" content="Antoine Bosselut">
   <meta property="og:url" content="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
-  <meta property="og:title" content="Understanding Few-Shot Commonsense Knowledge Models | Antoine Bosselut">
-  <meta property="og:description" content="Providing natural language processing systems with commonsense knowledge is a critical challenge for achieving language understanding. Recently, commonsense knowledge models have emerged as a suitable approach for hypothesizing situation-relevant commonsense knowledge on-demand in natural language applications. However, these systems are limited by the fixed set of relations captured by schemas of the knowledge bases on which they&#39;re trained.&lt;br&gt;&lt;br&gt;
-To address this limitation, we investigate training commonsense knowledge models in a few-shot setting with limited tuples per commonsense relation in the graph. We perform five separate studies on different dimensions of few-shot commonsense knowledge learning, providing a roadmap on best practices for training these systems efficiently. Importantly, we find that human quality ratings for knowledge produced from a few-shot trained system can achieve performance within 6% of knowledge produced from fully supervised systems. This few-shot performance enables coverage of a wide breadth of relations in future commonsense systems. "><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:title" content="Analyzing Commonsense Emergence in Few-shot Knowledge Models  | Antoine Bosselut">
+  <meta property="og:description" content="Recently, commonsense knowledge models --- pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples --- showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models. However, as parallel studies show that LMs are poor hypothesizers of declarative commonsense relationships on their own, it remains unclear whether this knowledge is learned during pretraining or from fine-tuning on KG examples.&lt;br&gt;&lt;br&gt;
+To investigate this question, we train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities. Our results show that commonsense knowledge models can rapidly adapt from limited examples, indicating that KG fine-tuning serves to learn an interface to encoded knowledge learned during pretraining. Importantly, our analysis of absolute, angular, and distributional parameter changes during few-shot fine-tuning provides novel insights into how this interface is learned."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2020-07-18T16:44:39&#43;00:00">
   
-  <meta property="article:modified_time" content="2021-09-25T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2021-11-04T00:00:00&#43;00:00">
   
 
   
@@ -146,7 +146,7 @@ To address this limitation, we investigate training commonsense knowledge models
 
 
 
-  <title>Understanding Few-Shot Commonsense Knowledge Models | Antoine Bosselut</title>
+  <title>Analyzing Commonsense Emergence in Few-shot Knowledge Models  | Antoine Bosselut</title>
 
 </head>
 
@@ -203,7 +203,7 @@ To address this limitation, we investigate training commonsense knowledge models
 
       
       
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         
 
         
@@ -232,6 +232,39 @@ To address this limitation, we investigate training commonsense knowledge models
           <a class="nav-link " href="/#about">
             
             <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#updates">
+            
+            <span>Updates</span>
             
           </a>
         </li>
@@ -297,7 +330,7 @@ To address this limitation, we investigate training commonsense knowledge models
         <li class="nav-item">
           <a class="nav-link " href="/#news">
             
-            <span>News</span>
+            <span>Media</span>
             
           </a>
         </li>
@@ -328,9 +361,9 @@ To address this limitation, we investigate training commonsense knowledge models
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects">
+          <a class="nav-link " href="/#joining">
             
-            <span>Projects</span>
+            <span>Joining EPFL NLP</span>
             
           </a>
         </li>
@@ -372,6 +405,9 @@ To address this limitation, we investigate training commonsense knowledge models
         
 
       
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
 
         
 
@@ -383,10 +419,6 @@ To address this limitation, we investigate training commonsense knowledge models
 
         
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
         
 
       </ul>
@@ -417,7 +449,7 @@ To address this limitation, we investigate training commonsense knowledge models
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Understanding Few-Shot Commonsense Knowledge Models</h1>
+  <h1 itemprop="name">Analyzing Commonsense Emergence in Few-shot Knowledge Models </h1>
 
   
 
@@ -426,8 +458,8 @@ To address this limitation, we investigate training commonsense knowledge models
 
 
 
-<meta content="2021-09-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-09-25 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2021-11-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-11-04 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -506,7 +538,7 @@ To address this limitation, we investigate training commonsense knowledge models
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2101.00297" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2101.00297" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -543,8 +575,8 @@ To address this limitation, we investigate training commonsense knowledge models
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Providing natural language processing systems with commonsense knowledge is a critical challenge for achieving language understanding. Recently, commonsense knowledge models have emerged as a suitable approach for hypothesizing situation-relevant commonsense knowledge on-demand in natural language applications. However, these systems are limited by the fixed set of relations captured by schemas of the knowledge bases on which they&rsquo;re trained.<!-- raw HTML omitted --><!-- raw HTML omitted -->
-To address this limitation, we investigate training commonsense knowledge models in a few-shot setting with limited tuples per commonsense relation in the graph. We perform five separate studies on different dimensions of few-shot commonsense knowledge learning, providing a roadmap on best practices for training these systems efficiently. Importantly, we find that human quality ratings for knowledge produced from a few-shot trained system can achieve performance within 6% of knowledge produced from fully supervised systems. This few-shot performance enables coverage of a wide breadth of relations in future commonsense systems.</p>
+    <p class="pub-abstract" itemprop="text">Recently, commonsense knowledge models &mdash; pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples &mdash; showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models. However, as parallel studies show that LMs are poor hypothesizers of declarative commonsense relationships on their own, it remains unclear whether this knowledge is learned during pretraining or from fine-tuning on KG examples.<!-- raw HTML omitted --><!-- raw HTML omitted -->
+To investigate this question, we train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities. Our results show that commonsense knowledge models can rapidly adapt from limited examples, indicating that KG fine-tuning serves to learn an interface to encoded knowledge learned during pretraining. Importantly, our analysis of absolute, angular, and distributional parameter changes during few-shot fine-tuning provides novel insights into how this interface is learned.</p>
     
 
     
@@ -574,7 +606,7 @@ To address this limitation, we investigate training commonsense knowledge models
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>ArXiv</em></div>
+          <div class="col-12 col-md-9"><em>Proceedings of the 3rd Conference on Automated Knowledge Base Construction (AKBC)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>

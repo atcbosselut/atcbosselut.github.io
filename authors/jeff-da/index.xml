@@ -6,10 +6,28 @@
     <description>Recent content in Jeff Da on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/authors/jeff-da/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Analyzing Commonsense Emergence in Few-shot Knowledge Models </title>
+      <link>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edited Media Understanding Frames: Reasoning About the Intents and Implications of Visual Disinformation</title>
+      <link>https://atcbosselut.github.io/publication/da-2020-emu/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/da-2020-emu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discourse Understanding and Factual Consistency in Abstractive Summarization</title>
@@ -21,29 +39,11 @@
     </item>
     
     <item>
-      <title>Understanding Few-Shot Commonsense Knowledge Models</title>
-      <link>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</link>
-      <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>(Comet-)Atomic 2020: On Symbolic and Neural Commonsense Knowledge Graphs</title>
       <link>https://atcbosselut.github.io/publication/hwang-2020-comet-a2020/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/hwang-2020-comet-a2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Edited Media Understanding: Reasoning About Implications of Manipulated Images</title>
-      <link>https://atcbosselut.github.io/publication/da-2020-emu/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/da-2020-emu/</guid>
       <description></description>
     </item>
     
