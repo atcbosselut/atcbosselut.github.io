@@ -6,10 +6,28 @@
     <description>Recent content in Publications on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fast Model Editing at Scale</title>
+      <link>https://atcbosselut.github.io/publication/mitchell-2022-mend/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mitchell-2022-mend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and Symbolic Logic Rules</title>
+      <link>https://atcbosselut.github.io/publication/arabshahi-2021-corgi/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/arabshahi-2021-corgi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Analyzing Commonsense Emergence in Few-shot Knowledge Models </title>
@@ -21,11 +39,11 @@
     </item>
     
     <item>
-      <title>Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and Symbolic Logic Rules</title>
-      <link>https://atcbosselut.github.io/publication/arabshahi-2021-corgi/</link>
+      <title>On the Opportunities and Risks of Foundation Models</title>
+      <link>https://atcbosselut.github.io/publication/bommasani-2021-foundation/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/publication/arabshahi-2021-corgi/</guid>
+      <guid>https://atcbosselut.github.io/publication/bommasani-2021-foundation/</guid>
       <description></description>
     </item>
     

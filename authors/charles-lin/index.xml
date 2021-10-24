@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charles Lin on Antoine Bosselut</title>
+    <link>https://atcbosselut.github.io/authors/charles-lin/</link>
+    <description>Recent content in Charles Lin on Antoine Bosselut</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://atcbosselut.github.io/authors/charles-lin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fast Model Editing at Scale</title>
+      <link>https://atcbosselut.github.io/publication/mitchell-2022-mend/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mitchell-2022-mend/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
