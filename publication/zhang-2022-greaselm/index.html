@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Answering complex questions about textual narratives requires reasoning over both stated context and the world knowledge that underlies it. However, pretrained language models (LM), the foundation of most modern QA systems, do not robustly represent latent relationships between concepts, which is necessary for reasoning. While knowledge graphs (KG) are often used to augment LMs with structured representations of world knowledge, it remains an open question how to effectively fuse and reason over the KG representations and the language context, which provides situational constraints and nuances. In this work, we propose GreaseLM, a new model that fuses encoded representations from pretrained LMs and graph neural networks over multiple layers of modality interaction operations. Information from both modalities propagates to the other, allowing language context representations to be grounded by structured world knowledge, and allowing linguistic nuances (e.g., negation, hedging) in the context to inform the graph representations of knowledge. Our results on three benchmarks in the commonsense reasoning (i.e., CommonsenseQA, OpenbookQA) and medical question answering (i.e., MedQA-USMLE) domains demonstrate that GREASELM can more reliably answer questions that require reasoning over both situational constraints and structured knowledge, even outperforming models 8x larger.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication_types/3/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/zhang-2022-greaselm/">
 
   
 
@@ -105,15 +105,12 @@
   
 
   
-  <link rel="alternate" href="/publication_types/3/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  <link rel="feed" href="/publication_types/3/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/publication_types/3/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/zhang-2022-greaselm/">
 
   
   
@@ -128,12 +125,14 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/publication_types/3/">
-  <meta property="og:title" content="3 | Antoine Bosselut">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/zhang-2022-greaselm/">
+  <meta property="og:title" content="GreaseLM: Graph REASoning Enhanced Language Models for Question Answering | Antoine Bosselut">
+  <meta property="og:description" content="Answering complex questions about textual narratives requires reasoning over both stated context and the world knowledge that underlies it. However, pretrained language models (LM), the foundation of most modern QA systems, do not robustly represent latent relationships between concepts, which is necessary for reasoning. While knowledge graphs (KG) are often used to augment LMs with structured representations of world knowledge, it remains an open question how to effectively fuse and reason over the KG representations and the language context, which provides situational constraints and nuances. In this work, we propose GreaseLM, a new model that fuses encoded representations from pretrained LMs and graph neural networks over multiple layers of modality interaction operations. Information from both modalities propagates to the other, allowing language context representations to be grounded by structured world knowledge, and allowing linguistic nuances (e.g., negation, hedging) in the context to inform the graph representations of knowledge. Our results on three benchmarks in the commonsense reasoning (i.e., CommonsenseQA, OpenbookQA) and medical question answering (i.e., MedQA-USMLE) domains demonstrate that GREASELM can more reliably answer questions that require reasoning over both situational constraints and structured knowledge, even outperforming models 8x larger."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2022-04-02T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-07-18T16:44:39&#43;00:00">
+  
+  <meta property="article:modified_time" content="2022-04-02T00:00:00&#43;00:00">
   
 
   
@@ -145,7 +144,7 @@
 
 
 
-  <title>3 | Antoine Bosselut</title>
+  <title>GreaseLM: Graph REASoning Enhanced Language Models for Question Answering | Antoine Bosselut</title>
 
 </head>
 
@@ -485,6 +484,101 @@
 </nav>
 
 
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">GreaseLM: Graph REASoning Enhanced Language Models for Question Answering</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2022-04-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-04-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">Xikun Zhang</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Michihiro Yasunaga</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Hongyu Ren</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Percy Liang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christopher D. Manning</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Jure Leskovec</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2022</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -494,117 +588,114 @@
 
 
 
+  
 
 
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/zhang-2022-greaselm/zhang-2022-greaselm.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
   
+</div>
 
-  
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Answering complex questions about textual narratives requires reasoning over both stated context and the world knowledge that underlies it. However, pretrained language models (LM), the foundation of most modern QA systems, do not robustly represent latent relationships between concepts, which is necessary for reasoning. While knowledge graphs (KG) are often used to augment LMs with structured representations of world knowledge, it remains an open question how to effectively fuse and reason over the KG representations and the language context, which provides situational constraints and nuances. In this work, we propose GreaseLM, a new model that fuses encoded representations from pretrained LMs and graph neural networks over multiple layers of modality interaction operations. Information from both modalities propagates to the other, allowing language context representations to be grounded by structured world knowledge, and allowing linguistic nuances (e.g., negation, hedging) in the context to inform the graph representations of knowledge. Our results on three benchmarks in the commonsense reasoning (i.e., CommonsenseQA, OpenbookQA) and medical question answering (i.e., MedQA-USMLE) domains demonstrate that GREASELM can more reliably answer questions that require reasoning over both situational constraints and structured knowledge, even outperforming models 8x larger.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the 10th International Conference for Learning Representations (ICLR)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">3</h1>
-
   
 
-  
+
+
+
+
+
+
+
+  </div>
 </div>
 
 
-
-<div class="universal-wrapper">
-  
-
-  
-  
-  <div>
-    <h2><a href="/publication/zhang-2022-greaselm/">GreaseLM: Graph REASoning Enhanced Language Models for Question Answering</a></h2>
-    <div class="article-style">
-      
-      Answering complex questions about textual narratives requires reasoning over both stated context and the world knowledge that underlies it. However, pretrained language models (LM), the foundation of most modern QA systems, do not robustly represent …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/mitchell-2022-mend/">Fast Model Editing at Scale</a></h2>
-    <div class="article-style">
-      
-      While large pre-trained models have enabled impressive results on a variety of downstream tasks, the largest existing models still make errors, and even accurate predictions may become outdated over time. Because detecting all such failures at …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/arabshahi-2021-corgi/">Conversational Multi-Hop Reasoning with Neural Commonsense Knowledge and Symbolic Logic Rules</a></h2>
-    <div class="article-style">
-      
-      One of the challenges faced by conversational agents is their inability to identify unstated presumptions of their users’ commands, a task trivial for humans due to their commonsense. In this paper, we propose a zero-shot commonsense reasoning system …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/da-2021-understanding-fs/">Analyzing Commonsense Emergence in Few-shot Knowledge Models </a></h2>
-    <div class="article-style">
-      
-      Recently, commonsense knowledge models --- pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples --- showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models. However, as …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/bommasani-2021-foundation/">On the Opportunities and Risks of Foundation Models</a></h2>
-    <div class="article-style">
-      
-      AI is undergoing a paradigm shift with the rise of models (e.g., BERT, DALL-E, GPT-3) that are trained on broad data at scale and are adaptable to a wide range of downstream tasks. We call these models foundation models to underscore their critically …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/da-2020-emu/">Edited Media Understanding Frames: Reasoning About the Intents and Implications of Visual Disinformation</a></h2>
-    <div class="article-style">
-      
-      Multimodal disinformation, from 'deepfakes' to simple edits that deceive, is an important societal problem. Yet at the same time, the vast majority of media edits are harmless -- such as a filtered vacation photo. The difference between this example, …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/dong-2021-otf-attn/">On-the-Fly Attention Modulation for Neural Generation</a></h2>
-    <div class="article-style">
-      
-      Despite considerable advancements with deep neural language models (LMs), neural text generation still suffers from degeneration: the generated text is repetitive, generic, self- contradictory, and often lacks commonsense. Our analyses on …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/gabriel-2019-cooperative-gn/">Discourse Understanding and Factual Consistency in Abstractive Summarization</a></h2>
-    <div class="article-style">
-      
-      We introduce a general framework for abstractive summarization with factual consistency and distinct modeling of the narrative flow in an output summary. Our work addresses current limitations of models for abstractive summarization that often …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/hoang-2019-efficient-ao/">Efficient Adaptation of Pretrained Transformers for Abstractive Summarization</a></h2>
-    <div class="article-style">
-      
-      Large-scale learning of transformer language models has yielded improvements on a variety of natural language understanding tasks. Whether they can be effectively adapted for summarization, however, has been less explored, as the learned …
-      
-    </div>
-  </div>
-  
-
-  
-
-</div>
 
       
 

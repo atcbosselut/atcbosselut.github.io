@@ -6,10 +6,19 @@
     <description>Recent content in 1 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Synthetic Disinformation Attacks on Automated Fact Verification Systems</title>
+      <link>https://atcbosselut.github.io/publication/du-2022-synthetic-da/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/du-2022-synthetic-da/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>QA-GNN: Reasoning with Language Models and Knowledge Graphs for Question Answering</title>
