@@ -6,10 +6,19 @@
     <description>Recent content in 1 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Memory-Based Model Editing at Scale</title>
+      <link>https://atcbosselut.github.io/publication/mitchell-2022-serac/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mitchell-2022-serac/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GreaseLM: Graph REASoning Enhanced Language Models for Question Answering</title>
@@ -57,7 +66,7 @@
     </item>
     
     <item>
-      <title>Analyzing Commonsense Emergence in Few-shot Knowledge Models </title>
+      <title>Analyzing Commonsense Emergence in Few-shot Knowledge Models</title>
       <link>https://atcbosselut.github.io/publication/da-2021-understanding-fs/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       

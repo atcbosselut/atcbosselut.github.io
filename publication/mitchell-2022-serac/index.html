@@ -28,11 +28,10 @@
   
     
   
-  <meta name="description" content="Recently, commonsense knowledge models --- pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples --- showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models. However, as parallel studies show that LMs are poor hypothesizers of declarative commonsense relationships on their own, it remains unclear whether this knowledge is learned during pretraining or from fine-tuning on KG examples.&lt;br&gt;&lt;br&gt;
-To investigate this question, we train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities. Our results show that commonsense knowledge models can rapidly adapt from limited examples, indicating that KG fine-tuning serves to learn an interface to encoded knowledge learned during pretraining. Importantly, our analysis of absolute, angular, and distributional parameter changes during few-shot fine-tuning provides novel insights into how this interface is learned.">
+  <meta name="description" content="     Even the largest neural networks make errors, and once-correct predictions can become invalid as the world changes. Model editors make local updates to the behavior of base (pre-trained) models to inject updated knowledge or correct undesirable behaviors. Existing model editors have shown promise, but also suffer from insufficient expressiveness: they struggle to accurately model an edit&#39;s intended scope (examples affected by the edit), leading to inaccurate predictions for test inputs loosely related to the edit, and they often fail altogether after many edits. As a higher-capacity alternative, we propose Semi-Parametric Editing with a Retrieval-Augmented Counterfactual Model (SERAC), which stores edits in an explicit memory and learns to reason over them to modulate the base model&#39;s predictions as needed. To enable more rigorous evaluation of model editors, we introduce three challenging language model editing problems based on question answering, fact-checking, and dialogue generation. We find that only SERAC achieves high performance on all three problems, consistently outperforming existing approaches to model editing by a significant margin. Code, data, and additional project information will be made available at [this https URL](https://sites.google.com/view/serac-editing). ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/mitchell-2022-serac/">
 
   
 
@@ -111,7 +110,7 @@ To investigate this question, we train commonsense knowledge models in few-shot 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/mitchell-2022-serac/">
 
   
   
@@ -126,15 +125,14 @@ To investigate this question, we train commonsense knowledge models in few-shot 
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/publication/da-2021-understanding-fs/">
-  <meta property="og:title" content="Analyzing Commonsense Emergence in Few-shot Knowledge Models | Antoine Bosselut">
-  <meta property="og:description" content="Recently, commonsense knowledge models --- pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples --- showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models. However, as parallel studies show that LMs are poor hypothesizers of declarative commonsense relationships on their own, it remains unclear whether this knowledge is learned during pretraining or from fine-tuning on KG examples.&lt;br&gt;&lt;br&gt;
-To investigate this question, we train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities. Our results show that commonsense knowledge models can rapidly adapt from limited examples, indicating that KG fine-tuning serves to learn an interface to encoded knowledge learned during pretraining. Importantly, our analysis of absolute, angular, and distributional parameter changes during few-shot fine-tuning provides novel insights into how this interface is learned."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/mitchell-2022-serac/">
+  <meta property="og:title" content="Memory-Based Model Editing at Scale | Antoine Bosselut">
+  <meta property="og:description" content="     Even the largest neural networks make errors, and once-correct predictions can become invalid as the world changes. Model editors make local updates to the behavior of base (pre-trained) models to inject updated knowledge or correct undesirable behaviors. Existing model editors have shown promise, but also suffer from insufficient expressiveness: they struggle to accurately model an edit&#39;s intended scope (examples affected by the edit), leading to inaccurate predictions for test inputs loosely related to the edit, and they often fail altogether after many edits. As a higher-capacity alternative, we propose Semi-Parametric Editing with a Retrieval-Augmented Counterfactual Model (SERAC), which stores edits in an explicit memory and learns to reason over them to modulate the base model&#39;s predictions as needed. To enable more rigorous evaluation of model editors, we introduce three challenging language model editing problems based on question answering, fact-checking, and dialogue generation. We find that only SERAC achieves high performance on all three problems, consistently outperforming existing approaches to model editing by a significant margin. Code, data, and additional project information will be made available at [this https URL](https://sites.google.com/view/serac-editing). "><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2020-07-18T16:44:39&#43;00:00">
   
-  <meta property="article:modified_time" content="2021-11-04T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2022-06-01T00:00:00&#43;00:00">
   
 
   
@@ -146,7 +144,7 @@ To investigate this question, we train commonsense knowledge models in few-shot 
 
 
 
-  <title>Analyzing Commonsense Emergence in Few-shot Knowledge Models | Antoine Bosselut</title>
+  <title>Memory-Based Model Editing at Scale | Antoine Bosselut</title>
 
 </head>
 
@@ -507,7 +505,7 @@ To investigate this question, we train commonsense knowledge models in few-shot 
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Analyzing Commonsense Emergence in Few-shot Knowledge Models</h1>
+  <h1 itemprop="name">Memory-Based Model Editing at Scale</h1>
 
   
 
@@ -516,8 +514,8 @@ To investigate this question, we train commonsense knowledge models in few-shot 
 
 
 
-<meta content="2021-11-04 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-11-04 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2022-06-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-06-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -530,7 +528,7 @@ To investigate this question, we train commonsense knowledge models in few-shot 
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Jeff Da</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ronan Le Bras</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ximing Lu</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Yejin Choi</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person">Eric Mitchell</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Charles Lin</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christopher D. Manning</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Chelsea Finn</span>
 
   </div>
   
@@ -542,7 +540,7 @@ To investigate this question, we train commonsense knowledge models in few-shot 
     
       
     
-    <time>2021</time>
+    <time>2022</time>
   </span>
   
 
@@ -596,14 +594,14 @@ To investigate this question, we train commonsense knowledge models in few-shot 
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2101.00297" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2206.06520" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/da-2021-understanding-fs/da-2021-understanding-fs.bib">
+        data-filename="/publication/mitchell-2022-serac/mitchell-2022-serac.bib">
   Cite
 </button>
 
@@ -612,12 +610,16 @@ To investigate this question, we train commonsense knowledge models in few-shot 
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/allenai/few-shot-comet/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/view/serac-editing" target="_blank" rel="noopener">
   Code
 </a>
 
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/view/serac-editing" target="_blank" rel="noopener">
+  Project
+</a>
 
 
 
@@ -641,8 +643,8 @@ To investigate this question, we train commonsense knowledge models in few-shot 
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Recently, commonsense knowledge models &mdash; pretrained language models (LM) fine-tuned on knowledge graph (KG) tuples &mdash; showed that considerable amounts of commonsense knowledge can be encoded in the parameters of large language models. However, as parallel studies show that LMs are poor hypothesizers of declarative commonsense relationships on their own, it remains unclear whether this knowledge is learned during pretraining or from fine-tuning on KG examples.<!-- raw HTML omitted --><!-- raw HTML omitted -->
-To investigate this question, we train commonsense knowledge models in few-shot settings to study the emergence of their commonsense representation abilities. Our results show that commonsense knowledge models can rapidly adapt from limited examples, indicating that KG fine-tuning serves to learn an interface to encoded knowledge learned during pretraining. Importantly, our analysis of absolute, angular, and distributional parameter changes during few-shot fine-tuning provides novel insights into how this interface is learned.</p>
+    <p class="pub-abstract" itemprop="text"><pre><code> Even the largest neural networks make errors, and once-correct predictions can become invalid as the world changes. Model editors make local updates to the behavior of base (pre-trained) models to inject updated knowledge or correct undesirable behaviors. Existing model editors have shown promise, but also suffer from insufficient expressiveness: they struggle to accurately model an edit's intended scope (examples affected by the edit), leading to inaccurate predictions for test inputs loosely related to the edit, and they often fail altogether after many edits. As a higher-capacity alternative, we propose Semi-Parametric Editing with a Retrieval-Augmented Counterfactual Model (SERAC), which stores edits in an explicit memory and learns to reason over them to modulate the base model's predictions as needed. To enable more rigorous evaluation of model editors, we introduce three challenging language model editing problems based on question answering, fact-checking, and dialogue generation. We find that only SERAC achieves high performance on all three problems, consistently outperforming existing approaches to model editing by a significant margin. Code, data, and additional project information will be made available at [this https URL](https://sites.google.com/view/serac-editing). </code></pre>
+</p>
     
 
     
@@ -672,7 +674,7 @@ To investigate this question, we train commonsense knowledge models in few-shot 
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Proceedings of the 3rd Conference on Automated Knowledge Base Construction (AKBC)</em></div>
+          <div class="col-12 col-md-9"><em>Proceedings of the 39th International Conference on Machine Learning (ICML)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
