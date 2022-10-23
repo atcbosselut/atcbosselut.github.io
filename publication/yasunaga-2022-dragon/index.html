@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Current task-oriented dialog (TOD) systems mostly manage structured knowledge (e.g. databases and tables) to guide the goal-oriented conversations. However, they fall short of handling dialogs which also involve unstructured knowledge (e.g. reviews and documents). In this paper, we formulate a task of modeling TOD grounded on a fusion of structured and unstructured knowledge. To address this task, we propose a TOD system with semi-structured knowledge management, SeKnow, which extends the belief state to manage knowledge with both structured and unstructured contents. Furthermore, we introduce two implementations of SeKnow based on a non-pretrained sequence-to-sequence model and a pretrained language model, respectively. Both implementations use the end-to-end manner to jointly optimize dialog modeling grounded on structured and unstructured knowledge. We conduct experiments on a modified version of MultiWOZ 2.1 dataset, Mod-MultiWOZ 2.1, where dialogs are processed to involve semi-structured knowledge. Experimental results show that SeKnow has strong performances in both end-to-end dialog and intermediate knowledge management, compared to existing TOD systems and their extensions with pipeline knowledge management schemes.">
+  <meta name="description" content="Pretraining a language model (LM) on text has been shown to help various downstream NLP tasks. Recent works show that a knowledge graph (KG) can complement text data, offering structured background knowledge that provides a useful scaffold for reasoning. However, these works are not pretrained to learn a deep fusion of the two modalities at scale, limiting the potential to acquire fully joint representations of text and KG. Here we propose DRAGON (Deep Bidirectional Language-Knowledge Graph Pretraining), a self-supervised approach to pretraining a deeply joint language-knowledge foundation model from text and KG at scale. Specifically, our model takes pairs of text segments and relevant KG subgraphs as input and bidirectionally fuses information from both modalities. We pretrain this model by unifying two self-supervised reasoning tasks, masked language modeling and KG link prediction. DRAGON outperforms existing LM and LM&#43;KG models on diverse downstream tasks including question answering across general and biomedical domains, with &#43;5% absolute gain on average. In particular, DRAGON achieves notable performance on complex reasoning about language and knowledge (&#43;10% on questions involving long contexts or multi-step reasoning) and low-resource QA (&#43;8% on OBQA and RiddleSense), and new state-of-the-art results on various BioNLP tasks.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/gao-2022-e2e-to/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/yasunaga-2022-dragon/">
 
   
 
@@ -110,7 +110,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/publication/gao-2022-e2e-to/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/yasunaga-2022-dragon/">
 
   
   
@@ -125,26 +125,26 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/publication/gao-2022-e2e-to/">
-  <meta property="og:title" content="End-to-End Task-Oriented Dialog Modeling with Semi-Structured Knowledge Management | Antoine Bosselut">
-  <meta property="og:description" content="Current task-oriented dialog (TOD) systems mostly manage structured knowledge (e.g. databases and tables) to guide the goal-oriented conversations. However, they fall short of handling dialogs which also involve unstructured knowledge (e.g. reviews and documents). In this paper, we formulate a task of modeling TOD grounded on a fusion of structured and unstructured knowledge. To address this task, we propose a TOD system with semi-structured knowledge management, SeKnow, which extends the belief state to manage knowledge with both structured and unstructured contents. Furthermore, we introduce two implementations of SeKnow based on a non-pretrained sequence-to-sequence model and a pretrained language model, respectively. Both implementations use the end-to-end manner to jointly optimize dialog modeling grounded on structured and unstructured knowledge. We conduct experiments on a modified version of MultiWOZ 2.1 dataset, Mod-MultiWOZ 2.1, where dialogs are processed to involve semi-structured knowledge. Experimental results show that SeKnow has strong performances in both end-to-end dialog and intermediate knowledge management, compared to existing TOD systems and their extensions with pipeline knowledge management schemes."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/yasunaga-2022-dragon/">
+  <meta property="og:title" content="Deep Bidirectional Language-Knowledge Graph Pretraining | Antoine Bosselut">
+  <meta property="og:description" content="Pretraining a language model (LM) on text has been shown to help various downstream NLP tasks. Recent works show that a knowledge graph (KG) can complement text data, offering structured background knowledge that provides a useful scaffold for reasoning. However, these works are not pretrained to learn a deep fusion of the two modalities at scale, limiting the potential to acquire fully joint representations of text and KG. Here we propose DRAGON (Deep Bidirectional Language-Knowledge Graph Pretraining), a self-supervised approach to pretraining a deeply joint language-knowledge foundation model from text and KG at scale. Specifically, our model takes pairs of text segments and relevant KG subgraphs as input and bidirectionally fuses information from both modalities. We pretrain this model by unifying two self-supervised reasoning tasks, masked language modeling and KG link prediction. DRAGON outperforms existing LM and LM&#43;KG models on diverse downstream tasks including question answering across general and biomedical domains, with &#43;5% absolute gain on average. In particular, DRAGON achieves notable performance on complex reasoning about language and knowledge (&#43;10% on questions involving long contexts or multi-step reasoning) and low-resource QA (&#43;8% on OBQA and RiddleSense), and new state-of-the-art results on various BioNLP tasks."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-07-18T16:44:39&#43;00:00">
+  <meta property="article:published_time" content="2020-07-18T16:44:39&#43;00:00">
   
-  <meta property="article:modified_time" content="2022-01-08T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2022-08-01T00:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>End-to-End Task-Oriented Dialog Modeling with Semi-Structured Knowledge Management | Antoine Bosselut</title>
+
+
+  <title>Deep Bidirectional Language-Knowledge Graph Pretraining | Antoine Bosselut</title>
 
 </head>
 
@@ -505,7 +505,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">End-to-End Task-Oriented Dialog Modeling with Semi-Structured Knowledge Management</h1>
+  <h1 itemprop="name">Deep Bidirectional Language-Knowledge Graph Pretraining</h1>
 
   
 
@@ -514,8 +514,8 @@
 
 
 
-<meta content="2022-01-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2022-01-08 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2022-08-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-08-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -528,7 +528,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Silin Gao</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ryuichi Takanobu</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Minlie Huang</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person">Michihiro Yasunaga</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Hongyu Ren</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Xikun Zhang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christopher D. Manning</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Percy Liang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Jure Leskovec</span>
 
   </div>
   
@@ -594,17 +594,25 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2106.11796" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2210.09338" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/gao-2022-e2e-to/gao-2022-e2e-to.bib">
+        data-filename="/publication/yasunaga-2022-dragon/yasunaga-2022-dragon.bib">
   Cite
 </button>
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/michiyasunaga/dragon" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -631,7 +639,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Current task-oriented dialog (TOD) systems mostly manage structured knowledge (e.g. databases and tables) to guide the goal-oriented conversations. However, they fall short of handling dialogs which also involve unstructured knowledge (e.g. reviews and documents). In this paper, we formulate a task of modeling TOD grounded on a fusion of structured and unstructured knowledge. To address this task, we propose a TOD system with semi-structured knowledge management, SeKnow, which extends the belief state to manage knowledge with both structured and unstructured contents. Furthermore, we introduce two implementations of SeKnow based on a non-pretrained sequence-to-sequence model and a pretrained language model, respectively. Both implementations use the end-to-end manner to jointly optimize dialog modeling grounded on structured and unstructured knowledge. We conduct experiments on a modified version of MultiWOZ 2.1 dataset, Mod-MultiWOZ 2.1, where dialogs are processed to involve semi-structured knowledge. Experimental results show that SeKnow has strong performances in both end-to-end dialog and intermediate knowledge management, compared to existing TOD systems and their extensions with pipeline knowledge management schemes.</p>
+    <p class="pub-abstract" itemprop="text">Pretraining a language model (LM) on text has been shown to help various downstream NLP tasks. Recent works show that a knowledge graph (KG) can complement text data, offering structured background knowledge that provides a useful scaffold for reasoning. However, these works are not pretrained to learn a deep fusion of the two modalities at scale, limiting the potential to acquire fully joint representations of text and KG. Here we propose DRAGON (Deep Bidirectional Language-Knowledge Graph Pretraining), a self-supervised approach to pretraining a deeply joint language-knowledge foundation model from text and KG at scale. Specifically, our model takes pairs of text segments and relevant KG subgraphs as input and bidirectionally fuses information from both modalities. We pretrain this model by unifying two self-supervised reasoning tasks, masked language modeling and KG link prediction. DRAGON outperforms existing LM and LM+KG models on diverse downstream tasks including question answering across general and biomedical domains, with +5% absolute gain on average. In particular, DRAGON achieves notable performance on complex reasoning about language and knowledge (+10% on questions involving long contexts or multi-step reasoning) and low-resource QA (+8% on OBQA and RiddleSense), and new state-of-the-art results on various BioNLP tasks.</p>
     
 
     
@@ -661,7 +669,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>IEEE/ACM Transactions on Audio Speech and Language (TASLP)</em></div>
+          <div class="col-12 col-md-9"><em>Advances in Neural Information Processing Systems (NeurIPS)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
