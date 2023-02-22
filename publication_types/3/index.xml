@@ -6,10 +6,19 @@
     <description>Recent content in 3 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kogito: A Commonsense Knowledge Inference Toolkit</title>
+      <link>https://atcbosselut.github.io/publication/ismayil-2023-kogito/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/ismayil-2023-kogito/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discovering Language-neutral Sub-networks in Multilingual Language Models</title>
