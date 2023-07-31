@@ -6,10 +6,55 @@
     <description>Recent content in 1 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Let Me Teach You: Pedagogical Foundations of Feedback for Language Models</title>
+      <link>https://atcbosselut.github.io/publication/borges-2023-felt/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/borges-2023-felt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RECKONING: Reasoning through Dynamic Knowledge Encoding</title>
+      <link>https://atcbosselut.github.io/publication/chen-2023-reckoning/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/chen-2023-reckoning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives</title>
+      <link>https://atcbosselut.github.io/publication/gao-2023-peacok/</link>
+      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/gao-2023-peacok/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitigating Label Biases for In-context Learning</title>
+      <link>https://atcbosselut.github.io/publication/fei-2023-dcc/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/fei-2023-dcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DISCO: Distilling Counterfactuals with Large Language Models</title>
+      <link>https://atcbosselut.github.io/publication/chen-2023-disco/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/chen-2023-disco/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ComFact: A Benchmark for Linking Contextual Commonsense Knowledge</title>
