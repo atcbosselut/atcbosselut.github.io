@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Various design settings for in-context learning (ICL), such as the choice and order of the in-context examples, can bias a model toward a particular prediction without being reflective of an understanding of the task. While many studies discuss these design choices, there have been few systematic investigations into categorizing them and mitigating their impact. In this work, we define a typology for three types of label biases in ICL for text classification: vanilla-label bias, context-label bias, and domain-label bias (which we conceptualize and detect for the first time). Our analysis demonstrates that prior label bias calibration methods fall short of addressing all three types of biases. Specifically, domain-label bias restricts LLMs to random-level performance on many tasks regardless of the choice of in-context examples. To mitigate the effect of these biases, we propose a simple bias calibration method that estimates a language model&#39;s label bias using random in-domain words from the task corpus. After controlling for this estimated bias when making predictions, our novel domain-context calibration significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks. The gain is substantial on tasks with large domain-label bias (up to 37% in Macro-F1). Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL. ">
+  <meta name="description" content="Pretrained language models (LMs) encode implicit representations of knowledge in their parameters. However, localizing these representations and disentangling them from each other remains an open problem. In this work, we investigate whether pretrained language models contain various knowledge-critical subnetworks: particular sparse computational subgraphs responsible for encoding specific knowledge the model has memorized. We propose a multi-objective differentiable weight masking scheme to discover these subnetworks and show that we can use them to precisely remove specific knowledge from models while minimizing adverse effects on the behavior of the original language model. We demonstrate our method on multiple GPT2 variants, uncovering highly sparse subnetworks (98%&#43;) that are solely responsible for specific collections of relational knowledge. When these subnetworks are removed, the remaining network maintains most of its initial capacity (modeling language and other memorized relational knowledge) but struggles to express the removed knowledge, and suffers performance drops on examples needing this removed knowledge on downstream tasks after finetuning.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/fei-2023-dcc/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/bayazit-2023-discovering-kc/">
 
   
 
@@ -110,7 +110,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/publication/fei-2023-dcc/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/bayazit-2023-discovering-kc/">
 
   
   
@@ -125,14 +125,14 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/publication/fei-2023-dcc/">
-  <meta property="og:title" content="Mitigating Label Biases for In-context Learning | Antoine Bosselut">
-  <meta property="og:description" content="Various design settings for in-context learning (ICL), such as the choice and order of the in-context examples, can bias a model toward a particular prediction without being reflective of an understanding of the task. While many studies discuss these design choices, there have been few systematic investigations into categorizing them and mitigating their impact. In this work, we define a typology for three types of label biases in ICL for text classification: vanilla-label bias, context-label bias, and domain-label bias (which we conceptualize and detect for the first time). Our analysis demonstrates that prior label bias calibration methods fall short of addressing all three types of biases. Specifically, domain-label bias restricts LLMs to random-level performance on many tasks regardless of the choice of in-context examples. To mitigate the effect of these biases, we propose a simple bias calibration method that estimates a language model&#39;s label bias using random in-domain words from the task corpus. After controlling for this estimated bias when making predictions, our novel domain-context calibration significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks. The gain is substantial on tasks with large domain-label bias (up to 37% in Macro-F1). Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL. "><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/bayazit-2023-discovering-kc/">
+  <meta property="og:title" content="Discovering Knowledge-Critical Subnetworks in Pretrained Language Models | Antoine Bosselut">
+  <meta property="og:description" content="Pretrained language models (LMs) encode implicit representations of knowledge in their parameters. However, localizing these representations and disentangling them from each other remains an open problem. In this work, we investigate whether pretrained language models contain various knowledge-critical subnetworks: particular sparse computational subgraphs responsible for encoding specific knowledge the model has memorized. We propose a multi-objective differentiable weight masking scheme to discover these subnetworks and show that we can use them to precisely remove specific knowledge from models while minimizing adverse effects on the behavior of the original language model. We demonstrate our method on multiple GPT2 variants, uncovering highly sparse subnetworks (98%&#43;) that are solely responsible for specific collections of relational knowledge. When these subnetworks are removed, the remaining network maintains most of its initial capacity (modeling language and other memorized relational knowledge) but struggles to express the removed knowledge, and suffers performance drops on examples needing this removed knowledge on downstream tasks after finetuning."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-07-18T16:44:39&#43;00:00">
   
-  <meta property="article:modified_time" content="2023-01-03T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2023-01-07T00:00:00&#43;00:00">
   
 
   
@@ -144,7 +144,7 @@
 
 
 
-  <title>Mitigating Label Biases for In-context Learning | Antoine Bosselut</title>
+  <title>Discovering Knowledge-Critical Subnetworks in Pretrained Language Models | Antoine Bosselut</title>
 
 </head>
 
@@ -505,7 +505,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Mitigating Label Biases for In-context Learning</h1>
+  <h1 itemprop="name">Discovering Knowledge-Critical Subnetworks in Pretrained Language Models</h1>
 
   
 
@@ -514,8 +514,8 @@
 
 
 
-<meta content="2023-01-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2023-01-03 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2023-01-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-01-07 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -528,7 +528,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Yu Fei</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Yifan Hou</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Zeming Chen</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person">Deniz Bayazit</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Negar Foroutan</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Zeming Chen</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Gail Weiss</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>
 
   </div>
   
@@ -592,20 +592,13 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2305.19148" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2310.03084" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/fywalter/label-bias" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -614,15 +607,6 @@
 
 
 
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=mZTka2s3evo" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 
@@ -640,7 +624,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Various design settings for in-context learning (ICL), such as the choice and order of the in-context examples, can bias a model toward a particular prediction without being reflective of an understanding of the task. While many studies discuss these design choices, there have been few systematic investigations into categorizing them and mitigating their impact. In this work, we define a typology for three types of label biases in ICL for text classification: vanilla-label bias, context-label bias, and domain-label bias (which we conceptualize and detect for the first time). Our analysis demonstrates that prior label bias calibration methods fall short of addressing all three types of biases. Specifically, domain-label bias restricts LLMs to random-level performance on many tasks regardless of the choice of in-context examples. To mitigate the effect of these biases, we propose a simple bias calibration method that estimates a language model&rsquo;s label bias using random in-domain words from the task corpus. After controlling for this estimated bias when making predictions, our novel domain-context calibration significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks. The gain is substantial on tasks with large domain-label bias (up to 37% in Macro-F1). Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL.</p>
+    <p class="pub-abstract" itemprop="text">Pretrained language models (LMs) encode implicit representations of knowledge in their parameters. However, localizing these representations and disentangling them from each other remains an open problem. In this work, we investigate whether pretrained language models contain various knowledge-critical subnetworks: particular sparse computational subgraphs responsible for encoding specific knowledge the model has memorized. We propose a multi-objective differentiable weight masking scheme to discover these subnetworks and show that we can use them to precisely remove specific knowledge from models while minimizing adverse effects on the behavior of the original language model. We demonstrate our method on multiple GPT2 variants, uncovering highly sparse subnetworks (98%+) that are solely responsible for specific collections of relational knowledge. When these subnetworks are removed, the remaining network maintains most of its initial capacity (modeling language and other memorized relational knowledge) but struggles to express the removed knowledge, and suffers performance drops on examples needing this removed knowledge on downstream tasks after finetuning.</p>
     
 
     
@@ -670,7 +654,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL)</em></div>
+          <div class="col-12 col-md-9"><em>arXiv</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
