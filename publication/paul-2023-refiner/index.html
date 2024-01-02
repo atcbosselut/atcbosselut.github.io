@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Language models (LMs) have recently shown remarkable performance on reasoning tasks by explicitly generating intermediate inferences, e.g., chain-of-thought prompting. However, these intermediate inference steps may be inappropriate deductions from the initial context and lead to incorrect final predictions. Here we introduce REFINER, a framework for finetuning LMs to explicitly generate intermediate reasoning steps while interacting with a critic model that provides automated feedback on the reasoning. Specifically, the critic provides structured feedback that the reasoning LM uses to iteratively improve its intermediate arguments. Empirical evaluations of REFINER on three diverse reasoning tasks show significant improvements over baseline LMs of comparable scale. Furthermore, when using GPT3.5 as the reasoner, the trained critic significantly improves reasoning without finetuning the reasoner. Finally, our critic model is trained without expensive human-in-the-loop data but can be substituted with humans at inference time. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication_types/1/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/paul-2023-refiner/">
 
   
 
@@ -105,15 +105,12 @@
   
 
   
-  <link rel="alternate" href="/publication_types/1/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  <link rel="feed" href="/publication_types/1/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/publication_types/1/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/paul-2023-refiner/">
 
   
   
@@ -128,12 +125,14 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/publication_types/1/">
-  <meta property="og:title" content="1 | Antoine Bosselut">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/paul-2023-refiner/">
+  <meta property="og:title" content="REFINER: Reasoning Feedback on Intermediate Representations | Antoine Bosselut">
+  <meta property="og:description" content="Language models (LMs) have recently shown remarkable performance on reasoning tasks by explicitly generating intermediate inferences, e.g., chain-of-thought prompting. However, these intermediate inference steps may be inappropriate deductions from the initial context and lead to incorrect final predictions. Here we introduce REFINER, a framework for finetuning LMs to explicitly generate intermediate reasoning steps while interacting with a critic model that provides automated feedback on the reasoning. Specifically, the critic provides structured feedback that the reasoning LM uses to iteratively improve its intermediate arguments. Empirical evaluations of REFINER on three diverse reasoning tasks show significant improvements over baseline LMs of comparable scale. Furthermore, when using GPT3.5 as the reasoner, the trained critic significantly improves reasoning without finetuning the reasoner. Finally, our critic model is trained without expensive human-in-the-loop data but can be substituted with humans at inference time. "><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2023-01-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2023-01-02T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2023-01-02T00:00:00&#43;00:00">
   
 
   
@@ -145,7 +144,7 @@
 
 
 
-  <title>1 | Antoine Bosselut</title>
+  <title>REFINER: Reasoning Feedback on Intermediate Representations | Antoine Bosselut</title>
 
 </head>
 
@@ -485,6 +484,99 @@
 </nav>
 
 
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">REFINER: Reasoning Feedback on Intermediate Representations</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2023-01-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-01-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">Debjit Paul</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Mete Ismayilzada</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Maxime Peyrard</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Beatriz Borges</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Robert West</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Boi Faltings</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2023</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -494,135 +586,115 @@
 
 
 
-
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">1</h1>
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2304.01904" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
-  <div>
-    <h2><a href="/publication/chen-2023-meditron/">MEDITRON-70B: Scaling Medical Pretraining for Large Language Models</a></h2>
-    <div class="article-style">
-      
-      Large language models (LLMs) can potentially democratize access to medical knowledge. While many efforts have been made to harness and improve LLMs' medical knowledge and reasoning capacities, the resulting models are either closed-source (e.g., …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/chen-2023-reckoning/">RECKONING: Reasoning through Dynamic Knowledge Encoding</a></h2>
-    <div class="article-style">
-      
-      Recent studies on transformer-based language models show that they can answer questions by reasoning over knowledge provided as part of the context (i.e., in-context reasoning). However, since the available knowledge is often not filtered for a …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/ismayil-2023-crow/">CRoW: Benchmarking Commonsense Reasoning in Real-World Tasks</a></h2>
-    <div class="article-style">
-      
-      Recent efforts in natural language processing (NLP) commonsense reasoning research have yielded a considerable number of new datasets and benchmarks. However, most of these datasets formulate commonsense reasoning challenges in artificial scenarios …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/romanou-2023-crab/">CRAB: Assessing the Strength of Causal Relationships Between Real-world Events</a></h2>
-    <div class="article-style">
-      
-      Understanding narratives requires reasoning about the cause-and-effect relationships between events mentioned in the text. While existing foundation models yield impressive results in many NLP tasks requiring reasoning, it is unclear whether they …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/hou-2023-toward-mech/">Towards a Mechanistic Interpretation of Multi-Step Reasoning Capabilities of Language Models</a></h2>
-    <div class="article-style">
-      
-      Recent work has shown that language models (LMs) have strong multi-step (i.e., procedural) reasoning capabilities. However, it is unclear whether LMs perform these tasks by cheating with answers memorized from pretraining corpus, or, via a multi-step …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/foroutan-2023-breaking/">Breaking the Language Barrier: Improving Cross-Lingual Reasoning with Structured Self-Attention</a></h2>
-    <div class="article-style">
-      
-      In this work, we study whether multilingual language models (MultiLMs) can transfer logical reasoning abilities to other languages when they are fine-tuned for reasoning in a different language. We evaluate the cross-lingual reasoning abilities of …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/fang-2023-car/">CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering</a></h2>
-    <div class="article-style">
-      
-      The task of zero-shot commonsense question answering evaluates models on their capacity to reason about general scenarios beyond those presented in specific datasets. Existing approaches for tackling this task leverage external knowledge from …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/bayazit-2023-discovering-kc/">Discovering Knowledge-Critical Subnetworks in Pretrained Language Models</a></h2>
-    <div class="article-style">
-      
-      Pretrained language models (LMs) encode implicit representations of knowledge in their parameters. However, localizing these representations and disentangling them from each other remains an open problem. In this work, we investigate whether …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/borges-2023-felt/">Let Me Teach You: Pedagogical Foundations of Feedback for Language Models</a></h2>
-    <div class="article-style">
-      
-      Natural Language Feedback (NLF) is an increasingly popular avenue to align Large Language Models (LLMs) to human preferences. Despite the richness and diversity of the information it can convey, NLF is often hand-designed and arbitrary. In a …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/aw-2023-align-instruct/">Instruction-tuning Aligns LLMs to the Human Brain</a></h2>
-    <div class="article-style">
-      
-      Instruction-tuning is a widely adopted method of finetuning that enables large language models (LLMs) to generate output that more closely resembles human responses to natural language queries, in many cases leading to human-level performance on …
-      
-    </div>
-  </div>
-  
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Language models (LMs) have recently shown remarkable performance on reasoning tasks by explicitly generating intermediate inferences, e.g., chain-of-thought prompting. However, these intermediate inference steps may be inappropriate deductions from the initial context and lead to incorrect final predictions. Here we introduce REFINER, a framework for finetuning LMs to explicitly generate intermediate reasoning steps while interacting with a critic model that provides automated feedback on the reasoning. Specifically, the critic provides structured feedback that the reasoning LM uses to iteratively improve its intermediate arguments. Empirical evaluations of REFINER on three diverse reasoning tasks show significant improvements over baseline LMs of comparable scale. Furthermore, when using GPT3.5 as the reasoner, the trained critic significantly improves reasoning without finetuning the reasoner. Finally, our critic model is trained without expensive human-in-the-loop data but can be substituted with humans at inference time.</p>
     
-    <li class="page-item"><a class="page-link" href="/publication_types/1/page/2/">&raquo;</a></li>
+
     
-  </ul>
-</nav>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
 
 
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+  </div>
 </div>
+
+
 
       
 

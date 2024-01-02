@@ -6,10 +6,73 @@
     <description>Recent content in 1 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MEDITRON-70B: Scaling Medical Pretraining for Large Language Models</title>
+      <link>https://atcbosselut.github.io/publication/chen-2023-meditron/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/chen-2023-meditron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RECKONING: Reasoning through Dynamic Knowledge Encoding</title>
+      <link>https://atcbosselut.github.io/publication/chen-2023-reckoning/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/chen-2023-reckoning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRoW: Benchmarking Commonsense Reasoning in Real-World Tasks</title>
+      <link>https://atcbosselut.github.io/publication/ismayil-2023-crow/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/ismayil-2023-crow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CRAB: Assessing the Strength of Causal Relationships Between Real-world Events</title>
+      <link>https://atcbosselut.github.io/publication/romanou-2023-crab/</link>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/romanou-2023-crab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards a Mechanistic Interpretation of Multi-Step Reasoning Capabilities of Language Models</title>
+      <link>https://atcbosselut.github.io/publication/hou-2023-toward-mech/</link>
+      <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/hou-2023-toward-mech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breaking the Language Barrier: Improving Cross-Lingual Reasoning with Structured Self-Attention</title>
+      <link>https://atcbosselut.github.io/publication/foroutan-2023-breaking/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/foroutan-2023-breaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAR: Conceptualization-Augmented Reasoner for Zero-Shot Commonsense Question Answering</title>
+      <link>https://atcbosselut.github.io/publication/fang-2023-car/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/fang-2023-car/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discovering Knowledge-Critical Subnetworks in Pretrained Language Models</title>
@@ -30,11 +93,11 @@
     </item>
     
     <item>
-      <title>RECKONING: Reasoning through Dynamic Knowledge Encoding</title>
-      <link>https://atcbosselut.github.io/publication/chen-2023-reckoning/</link>
+      <title>Instruction-tuning Aligns LLMs to the Human Brain</title>
+      <link>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/publication/chen-2023-reckoning/</guid>
+      <guid>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</guid>
       <description></description>
     </item>
     
@@ -62,6 +125,15 @@
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/chen-2023-disco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REFINER: Reasoning Feedback on Intermediate Representations</title>
+      <link>https://atcbosselut.github.io/publication/paul-2023-refiner/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/paul-2023-refiner/</guid>
       <description></description>
     </item>
     
