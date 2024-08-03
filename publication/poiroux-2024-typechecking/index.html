@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Large language models show promise for autoformalization, the task of automatically translating natural language into formal languages. However, current autoformalization methods remain limited. The last reported state-of-the-art performance on the ProofNet formalization benchmark for the Lean proof assistant, achieved using Codex for Lean 3, only showed successful formalization of 16.1% of informal statements. Similarly, our evaluation of GPT-4o for Lean 4 only produces successful translations 34.9% of the time. Our analysis shows that the performance of these models is largely limited by their inability to generate formal statements that successfully type-check (i.e., are syntactically correct and consistent with types) - with a whopping 86.6% of GPT-4o errors starting from a type-check failure. In this work, we propose a method to fix this issue through decoding with type-check filtering, where we initially sample a diverse set of candidate formalizations for an informal statement, then use the Lean proof assistant to filter out candidates that do not type-check. Using GPT-4o as a base model, and combining our method with self-consistency, we obtain a &#43;18.3% absolute increase in formalization accuracy, and achieve a new state-of-the-art of 53.2% on ProofNet with Lean 4.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication_types/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/poiroux-2024-typechecking/">
 
   
 
@@ -105,15 +105,12 @@
   
 
   
-  <link rel="alternate" href="/publication_types/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  <link rel="feed" href="/publication_types/index.xml" type="application/rss+xml" title="Antoine Bosselut">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/publication_types/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/poiroux-2024-typechecking/">
 
   
   
@@ -128,12 +125,14 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/publication_types/">
-  <meta property="og:title" content="Publication_types | Antoine Bosselut">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/poiroux-2024-typechecking/">
+  <meta property="og:title" content="Improving Autoformalization using Type Checking | Antoine Bosselut">
+  <meta property="og:description" content="Large language models show promise for autoformalization, the task of automatically translating natural language into formal languages. However, current autoformalization methods remain limited. The last reported state-of-the-art performance on the ProofNet formalization benchmark for the Lean proof assistant, achieved using Codex for Lean 3, only showed successful formalization of 16.1% of informal statements. Similarly, our evaluation of GPT-4o for Lean 4 only produces successful translations 34.9% of the time. Our analysis shows that the performance of these models is largely limited by their inability to generate formal statements that successfully type-check (i.e., are syntactically correct and consistent with types) - with a whopping 86.6% of GPT-4o errors starting from a type-check failure. In this work, we propose a method to fix this issue through decoding with type-check filtering, where we initially sample a diverse set of candidate formalizations for an informal statement, then use the Lean proof assistant to filter out candidates that do not type-check. Using GPT-4o as a base model, and combining our method with self-consistency, we obtain a &#43;18.3% absolute increase in formalization accuracy, and achieve a new state-of-the-art of 53.2% on ProofNet with Lean 4."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2024-01-06T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-07-18T16:44:39&#43;00:00">
+  
+  <meta property="article:modified_time" content="2024-01-02T00:00:00&#43;00:00">
   
 
   
@@ -145,7 +144,7 @@
 
 
 
-  <title>Publication_types | Antoine Bosselut</title>
+  <title>Improving Autoformalization using Type Checking | Antoine Bosselut</title>
 
 </head>
 
@@ -485,6 +484,99 @@
 </nav>
 
 
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Improving Autoformalization using Type Checking</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2024-01-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2024-01-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">Auguste Poiroux</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Gail Weiss</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Viktor Kuncak</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2024</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -494,50 +586,115 @@
 
 
 
+  
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2406.07222" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
   
+</div>
 
-  
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Large language models show promise for autoformalization, the task of automatically translating natural language into formal languages. However, current autoformalization methods remain limited. The last reported state-of-the-art performance on the ProofNet formalization benchmark for the Lean proof assistant, achieved using Codex for Lean 3, only showed successful formalization of 16.1% of informal statements. Similarly, our evaluation of GPT-4o for Lean 4 only produces successful translations 34.9% of the time. Our analysis shows that the performance of these models is largely limited by their inability to generate formal statements that successfully type-check (i.e., are syntactically correct and consistent with types) - with a whopping 86.6% of GPT-4o errors starting from a type-check failure. In this work, we propose a method to fix this issue through decoding with type-check filtering, where we initially sample a diverse set of candidate formalizations for an informal statement, then use the Lean proof assistant to filter out candidates that do not type-check. Using GPT-4o as a base model, and combining our method with self-consistency, we obtain a +18.3% absolute increase in formalization accuracy, and achieve a new state-of-the-art of 53.2% on ProofNet with Lean 4.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>arXiv</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Publication_types</h1>
-
   
 
-  
+
+
+
+
+
+
+
+  </div>
 </div>
 
 
-
-<div class="universal-wrapper">
-  
-
-  
-  
-  <div>
-    <h2><a href="/publication_types/1/">1</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_types/3/">3</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-
-  
-
-</div>
 
       
 

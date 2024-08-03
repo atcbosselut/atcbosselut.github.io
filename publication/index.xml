@@ -6,10 +6,190 @@
     <description>Recent content in Publications on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DiffuCOMET: Contextual Commonsense Knowledge Diffusion</title>
+      <link>https://atcbosselut.github.io/publication/gao-2024-diffucomet/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/gao-2024-diffucomet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex Reasoning over Logical Queries on Commonsense Knowledge Graphs</title>
+      <link>https://atcbosselut.github.io/publication/fang-2024-logic/</link>
+      <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/fang-2024-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Defeasibility in Causal Reasoning</title>
+      <link>https://atcbosselut.github.io/publication/cui-2024-delta/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/cui-2024-delta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Design Space for Intelligent and Interactive Writing Assistants</title>
+      <link>https://atcbosselut.github.io/publication/lee-2024-design/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/lee-2024-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConGeo: Robust Cross-view Geo-localization across Ground View Variations</title>
+      <link>https://atcbosselut.github.io/publication/mi-2024-congeo/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mi-2024-congeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConVQG: Contrastive Visual Question Generation with Multimodal Guidance</title>
+      <link>https://atcbosselut.github.io/publication/mi-2024-convqg/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mi-2024-convqg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course Recommender Systems Need to Consider the Job Market</title>
+      <link>https://atcbosselut.github.io/publication/frej-2024-sigir/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/frej-2024-sigir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes</title>
+      <link>https://atcbosselut.github.io/publication/mejia-2024-recipes/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mejia-2024-recipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instruction-tuning Aligns LLMs to the Human Brain</title>
+      <link>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Flex Tape Can&#39;t Fix That&#34;: Bias and Misinformation in Edited Language Models</title>
+      <link>https://atcbosselut.github.io/publication/halevy-2024-flextape/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/halevy-2024-flextape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brain-Like Language Processing via a Shallow Untrained Multihead Attention Network</title>
+      <link>https://atcbosselut.github.io/publication/alkhamissi-2024-suma/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/alkhamissi-2024-suma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ComperDial: Commonsense Persona-grounded Dialogue Dataset and Benchmark</title>
+      <link>https://atcbosselut.github.io/publication/wakaki-2024-comperdial/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/wakaki-2024-comperdial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Tool Use with Chain-of-Abstraction Reasoning</title>
+      <link>https://atcbosselut.github.io/publication/gao-2024-coa/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/gao-2024-coa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating Language Model Agency through Negotiations</title>
+      <link>https://atcbosselut.github.io/publication/davidson-2024-negotiation/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/davidson-2024-negotiation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving Autoformalization using Type Checking</title>
+      <link>https://atcbosselut.github.io/publication/poiroux-2024-typechecking/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/poiroux-2024-typechecking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Language Models are Catalyzing Chemistry Education</title>
+      <link>https://atcbosselut.github.io/publication/du-2024-chemed/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/du-2024-chemed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning</title>
+      <link>https://atcbosselut.github.io/publication/paul-2024-making/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/paul-2024-making/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REFINER: Reasoning Feedback on Intermediate Representations</title>
+      <link>https://atcbosselut.github.io/publication/paul-2023-refiner/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/paul-2023-refiner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JOBSKAPE: A Framework for Generating Synthetic Job Postings to Enhance Skill Matching</title>
+      <link>https://atcbosselut.github.io/publication/magron-2024-jobskape/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/magron-2024-jobskape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rethinking Skill Extraction in the Job Market Domain using Large Language Models</title>
+      <link>https://atcbosselut.github.io/publication/nguyen-2024-skills/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/nguyen-2024-skills/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>MEDITRON-70B: Scaling Medical Pretraining for Large Language Models</title>
@@ -93,15 +273,6 @@
     </item>
     
     <item>
-      <title>Instruction-tuning Aligns LLMs to the Human Brain</title>
-      <link>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</link>
-      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives</title>
       <link>https://atcbosselut.github.io/publication/gao-2023-peacok/</link>
       <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
@@ -125,15 +296,6 @@
       <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/chen-2023-disco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>REFINER: Reasoning Feedback on Intermediate Representations</title>
-      <link>https://atcbosselut.github.io/publication/paul-2023-refiner/</link>
-      <pubDate>Mon, 02 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/paul-2023-refiner/</guid>
       <description></description>
     </item>
     
