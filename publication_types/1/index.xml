@@ -6,10 +6,55 @@
     <description>Recent content in 1 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Discovering Knowledge-Critical Subnetworks in Pretrained Language Models</title>
+      <link>https://atcbosselut.github.io/publication/bayazit-2023-discovering-kc/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/bayazit-2023-discovering-kc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Let Me Teach You: Pedagogical Foundations of Feedback for Language Models</title>
+      <link>https://atcbosselut.github.io/publication/borges-2023-felt/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/borges-2023-felt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#34;Flex Tape Can&#39;t Fix That&#34;: Bias and Misinformation in Edited Language Models</title>
+      <link>https://atcbosselut.github.io/publication/halevy-2024-flextape/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/halevy-2024-flextape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instruction-tuning Aligns LLMs to the Human Brain</title>
+      <link>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning</title>
+      <link>https://atcbosselut.github.io/publication/paul-2024-making/</link>
+      <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/paul-2024-making/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DiffuCOMET: Contextual Commonsense Knowledge Diffusion</title>
@@ -84,24 +129,6 @@
     </item>
     
     <item>
-      <title>Instruction-tuning Aligns LLMs to the Human Brain</title>
-      <link>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</link>
-      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/aw-2023-align-instruct/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>&#34;Flex Tape Can&#39;t Fix That&#34;: Bias and Misinformation in Edited Language Models</title>
-      <link>https://atcbosselut.github.io/publication/halevy-2024-flextape/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/halevy-2024-flextape/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Brain-Like Language Processing via a Shallow Untrained Multihead Attention Network</title>
       <link>https://atcbosselut.github.io/publication/alkhamissi-2024-suma/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
@@ -152,15 +179,6 @@
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/du-2024-chemed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning</title>
-      <link>https://atcbosselut.github.io/publication/paul-2024-making/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/paul-2024-making/</guid>
       <description></description>
     </item>
     
@@ -251,24 +269,6 @@
       <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/fang-2023-car/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discovering Knowledge-Critical Subnetworks in Pretrained Language Models</title>
-      <link>https://atcbosselut.github.io/publication/bayazit-2023-discovering-kc/</link>
-      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/bayazit-2023-discovering-kc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Let Me Teach You: Pedagogical Foundations of Feedback for Language Models</title>
-      <link>https://atcbosselut.github.io/publication/borges-2023-felt/</link>
-      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://atcbosselut.github.io/publication/borges-2023-felt/</guid>
       <description></description>
     </item>
     
