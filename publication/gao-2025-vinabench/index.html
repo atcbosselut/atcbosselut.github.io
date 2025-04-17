@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="To achieve faithful reasoning that aligns with human expectations, large language models (LLMs) need to ground their reasoning to real-world knowledge (e.g., web facts, math and physical rules). Tools help LLMs access this external knowledge, but there remains challenges for fine-tuning LLM agents (e.g., Toolformer) to invoke tools in multi-step reasoning problems, where inter-connected tool calls require holistic and efficient tool usage planning. In this work, we propose a new method for LLMs to better leverage tools in multi-step reasoning. Our method, Chain-of-Abstraction (CoA), trains LLMs to first decode reasoning chains with abstract placeholders, and then call domain tools to reify each reasoning chain by filling in specific knowledge. This planning with abstract chains enables LLMs to learn more general reasoning strategies, which are robust to shifts of domain knowledge (e.g., math results) relevant to different reasoning questions. It also allows LLMs to perform decoding and calling of external tools in parallel, which avoids the inference delay caused by waiting for tool responses. In mathematical reasoning and Wiki QA domains, we show that our method consistently outperforms previous chain-of-thought and tool-augmented baselines on both in-distribution and out-of-distribution test sets, with an average ~6% absolute QA accuracy improvement. LLM agents trained with our method also show more efficient tool use, with inference speed being on average ~1.4x faster than baseline tool-augmented LLMs.">
+  <meta name="description" content="Visual narrative generation transforms textual narratives into sequences of images illustrating the content of the text. However, generating visual narratives that are faithful to the input text and self-consistent across generated images remains an open challenge, due to the lack of knowledge constraints used for planning the stories. In this work, we propose a new benchmark, VinaBench, to address this challenge. Our benchmark annotates the underlying commonsense and discourse constraints in visual narrative samples, offering systematic scaffolds for learning the implicit strategies of visual storytelling. Based on the incorporated narrative constraints, we further propose novel metrics to closely evaluate the consistency of generated narrative images and the alignment of generations with the input textual narrative. Our results across three generative vision models demonstrate that learning with VinaBench&#39;s knowledge constraints effectively improves the faithfulness and cohesion of generated visual narratives.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/gao-2024-coa/">
+  <link rel="alternate" hreflang="en-us" href="https://atcbosselut.github.io/publication/gao-2025-vinabench/">
 
   
 
@@ -110,7 +110,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://atcbosselut.github.io/publication/gao-2024-coa/">
+  <link rel="canonical" href="https://atcbosselut.github.io/publication/gao-2025-vinabench/">
 
   
   
@@ -125,26 +125,26 @@
   <meta property="twitter:creator" content="@ABosselut">
   
   <meta property="og:site_name" content="Antoine Bosselut">
-  <meta property="og:url" content="https://atcbosselut.github.io/publication/gao-2024-coa/">
-  <meta property="og:title" content="Efficient Tool Use with Chain-of-Abstraction Reasoning | Antoine Bosselut">
-  <meta property="og:description" content="To achieve faithful reasoning that aligns with human expectations, large language models (LLMs) need to ground their reasoning to real-world knowledge (e.g., web facts, math and physical rules). Tools help LLMs access this external knowledge, but there remains challenges for fine-tuning LLM agents (e.g., Toolformer) to invoke tools in multi-step reasoning problems, where inter-connected tool calls require holistic and efficient tool usage planning. In this work, we propose a new method for LLMs to better leverage tools in multi-step reasoning. Our method, Chain-of-Abstraction (CoA), trains LLMs to first decode reasoning chains with abstract placeholders, and then call domain tools to reify each reasoning chain by filling in specific knowledge. This planning with abstract chains enables LLMs to learn more general reasoning strategies, which are robust to shifts of domain knowledge (e.g., math results) relevant to different reasoning questions. It also allows LLMs to perform decoding and calling of external tools in parallel, which avoids the inference delay caused by waiting for tool responses. In mathematical reasoning and Wiki QA domains, we show that our method consistently outperforms previous chain-of-thought and tool-augmented baselines on both in-distribution and out-of-distribution test sets, with an average ~6% absolute QA accuracy improvement. LLM agents trained with our method also show more efficient tool use, with inference speed being on average ~1.4x faster than baseline tool-augmented LLMs."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://atcbosselut.github.io/publication/gao-2025-vinabench/">
+  <meta property="og:title" content="VinaBench: Benchmark for Faithful and Consistent Visual Narratives | Antoine Bosselut">
+  <meta property="og:description" content="Visual narrative generation transforms textual narratives into sequences of images illustrating the content of the text. However, generating visual narratives that are faithful to the input text and self-consistent across generated images remains an open challenge, due to the lack of knowledge constraints used for planning the stories. In this work, we propose a new benchmark, VinaBench, to address this challenge. Our benchmark annotates the underlying commonsense and discourse constraints in visual narrative samples, offering systematic scaffolds for learning the implicit strategies of visual storytelling. Based on the incorporated narrative constraints, we further propose novel metrics to closely evaluate the consistency of generated narrative images and the alignment of generations with the input textual narrative. Our results across three generative vision models demonstrate that learning with VinaBench&#39;s knowledge constraints effectively improves the faithfulness and cohesion of generated visual narratives."><meta property="og:image" content="https://atcbosselut.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-07-18T16:44:39&#43;00:00">
+  <meta property="article:published_time" content="2025-01-05T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2024-01-02T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2025-01-05T00:00:00&#43;00:00">
   
-
-  
-
 
   
 
 
+  
 
 
 
-  <title>Efficient Tool Use with Chain-of-Abstraction Reasoning | Antoine Bosselut</title>
+
+
+  <title>VinaBench: Benchmark for Faithful and Consistent Visual Narratives | Antoine Bosselut</title>
 
 </head>
 
@@ -505,7 +505,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Efficient Tool Use with Chain-of-Abstraction Reasoning</h1>
+  <h1 itemprop="name">VinaBench: Benchmark for Faithful and Consistent Visual Narratives</h1>
 
   
 
@@ -514,8 +514,8 @@
 
 
 
-<meta content="2024-01-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2024-01-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2025-01-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-01-05 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -528,7 +528,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Silin Gao</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Jane Dwivedi-Yu</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ping Yu</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Xiaoqing Ellen Tan</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ramakanth Pasunuru</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Olga Golovneva</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Koustuv Sinha</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Asli Celikyilmaz</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tianlu Wang</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person">Silin Gao</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Sheryl Mathew</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Li Mi</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Sepideh Mamooler</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Mengjie Zhao</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Hiromi Wakaki</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Yuki Mitsufuji</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Syrielle Montariol</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><strong>Antoine Bosselut</strong></span>
 
   </div>
   
@@ -540,7 +540,7 @@
     
       
     
-    <time>2024</time>
+    <time>2025</time>
   </span>
   
 
@@ -592,15 +592,35 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2401.17464" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2503.20871" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/Silin159/VinaBench" target="_blank" rel="noopener">
+  Code
+</a>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://huggingface.co/datasets/Silin1590/VinaBench" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://silin159.github.io/Vina-Bench/" target="_blank" rel="noopener">
+  Project
+</a>
 
 
 
@@ -624,7 +644,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">To achieve faithful reasoning that aligns with human expectations, large language models (LLMs) need to ground their reasoning to real-world knowledge (e.g., web facts, math and physical rules). Tools help LLMs access this external knowledge, but there remains challenges for fine-tuning LLM agents (e.g., Toolformer) to invoke tools in multi-step reasoning problems, where inter-connected tool calls require holistic and efficient tool usage planning. In this work, we propose a new method for LLMs to better leverage tools in multi-step reasoning. Our method, Chain-of-Abstraction (CoA), trains LLMs to first decode reasoning chains with abstract placeholders, and then call domain tools to reify each reasoning chain by filling in specific knowledge. This planning with abstract chains enables LLMs to learn more general reasoning strategies, which are robust to shifts of domain knowledge (e.g., math results) relevant to different reasoning questions. It also allows LLMs to perform decoding and calling of external tools in parallel, which avoids the inference delay caused by waiting for tool responses. In mathematical reasoning and Wiki QA domains, we show that our method consistently outperforms previous chain-of-thought and tool-augmented baselines on both in-distribution and out-of-distribution test sets, with an average ~6% absolute QA accuracy improvement. LLM agents trained with our method also show more efficient tool use, with inference speed being on average ~1.4x faster than baseline tool-augmented LLMs.</p>
+    <p class="pub-abstract" itemprop="text">Visual narrative generation transforms textual narratives into sequences of images illustrating the content of the text. However, generating visual narratives that are faithful to the input text and self-consistent across generated images remains an open challenge, due to the lack of knowledge constraints used for planning the stories. In this work, we propose a new benchmark, VinaBench, to address this challenge. Our benchmark annotates the underlying commonsense and discourse constraints in visual narrative samples, offering systematic scaffolds for learning the implicit strategies of visual storytelling. Based on the incorporated narrative constraints, we further propose novel metrics to closely evaluate the consistency of generated narrative images and the alignment of generations with the input textual narrative. Our results across three generative vision models demonstrate that learning with VinaBench&rsquo;s knowledge constraints effectively improves the faithfulness and cohesion of generated visual narratives.</p>
     
 
     
@@ -654,7 +674,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>arXiv</em></div>
+          <div class="col-12 col-md-9"><em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
