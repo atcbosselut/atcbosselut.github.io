@@ -6,17 +6,71 @@
     <description>Recent content in 1 on Antoine Bosselut</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://atcbosselut.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Can Performant LLMs Be Ethical? Quantifying the Impact of Web Crawling Opt-Outs</title>
+      <link>https://atcbosselut.github.io/publication/fan-2025-optout/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/fan-2025-optout/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From Language to Cognition: How LLMs Outgrow the Human Language Network</title>
+      <link>https://atcbosselut.github.io/publication/alkhamissi-2025-ccn/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/alkhamissi-2025-ccn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>VinaBench: Benchmark for Faithful and Consistent Visual Narratives</title>
       <link>https://atcbosselut.github.io/publication/gao-2025-vinabench/</link>
-      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>https://atcbosselut.github.io/publication/gao-2025-vinabench/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge</title>
+      <link>https://atcbosselut.github.io/publication/romanou-2024-include/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/romanou-2024-include/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Logical Fallacy-Informed Framework for Argument Generation</title>
+      <link>https://atcbosselut.github.io/publication/mouchel-2025-naacl/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mouchel-2025-naacl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PICLe: Pseudo-Annotations for In-Context Learning in Low-Resource Named Entity Detection</title>
+      <link>https://atcbosselut.github.io/publication/mamooler-2025-naacl/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/mamooler-2025-naacl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The LLM Language Network: A Neuroscientific Approach for Identifying Causally Task-Relevant Units</title>
+      <link>https://atcbosselut.github.io/publication/alkhamissi-2025-naacl/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://atcbosselut.github.io/publication/alkhamissi-2025-naacl/</guid>
       <description></description>
     </item>
     
@@ -30,11 +84,11 @@
     </item>
     
     <item>
-      <title>INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge</title>
-      <link>https://atcbosselut.github.io/publication/romanou-2024-include/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <title>Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation</title>
+      <link>https://atcbosselut.github.io/publication/singh-2025-globalmmlu/</link>
+      <pubDate>Wed, 25 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://atcbosselut.github.io/publication/romanou-2024-include/</guid>
+      <guid>https://atcbosselut.github.io/publication/singh-2025-globalmmlu/</guid>
       <description></description>
     </item>
     
